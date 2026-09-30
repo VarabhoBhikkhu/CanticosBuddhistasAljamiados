@@ -1,0 +1,87 @@
+\documentclass[
+  babelLanguage=british,
+  final,
+  toneMarksAbove,
+  %showtrims,
+  %showwirebinding,
+  webversion,
+]{chantingbook}
+
+\usepackage{local}
+
+\maxtocdepth{section}
+\makechapterstyle{tocchaptersmallskip}{
+  \chapterstyle{tocchapter}
+  \setlength{\beforechapskip}{0pt}
+  \setlength{\afterchapskip}{20pt}
+}
+\renewcommand\frontmatterChapterStyle{\chapterstyle{tocchaptersmallskip}}
+
+\title{Mahāsatipaṭṭhāna Sutta}
+\subtitle{The Foundations of Mindfulness}
+
+\begin{document}
+
+\frontmatter
+
+\webcoverNoEmpty{%
+\includegraphics[height=\paperheight]{satipatthana-webcover.jpg}%
+}
+
+\ifwebversion
+\cleartoverso
+\thispagestyle{empty}\mbox{}
+\fi
+
+\addtocontents{toc}{\protect \enlargethispage {2\baselineskip}}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+\thispagestyle{empty}
+
+{\fontsize{9}{12}\selectfont
+\mbox{}
+
+\vfill
+
+Pali text from the Mahāsaṅgīti Tipiṭaka Buddhavasse 2500: World Tipiṭaka Edition
+in Roman Script. Edited and published by The M.L. Maniratana Bunnag Dhamma
+Society Fund, 2005. Based on the digital edition of the Chaṭṭha Saṅgāyana
+published by the Vipassana Research Institute, with corrections and proofreading
+by the Dhamma Society.
+
+https://suttacentral.net/dn22/pli/ms
+
+}
+
+\mainmatter
+
+\showpartnumberfalse
+\cleartorecto
+\thispagestyle{empty}
+\markboth{\leftmark}{Mahāsatipaṭṭhāna Sutta}
+
+\printparttitle{%
+Mahāsatipaṭṭhāna Sutta
+
+\vspace*{2em}
+
+{\sectionFont\sectionSize\color{section}%
+  The Foundations of Mindfulness
+
+  \bigskip
+
+  Dīgha Nikāya 22
+\par}
+
+}
+
+\artopttrue
+
+\input{./chapters/english/satipatthana.tex}
+
+\input{./chapters/english/chanting-guide-samyok.tex}
+
+\end{document}

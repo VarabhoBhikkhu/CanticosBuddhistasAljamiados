@@ -1,0 +1,75 @@
+\documentclass[
+  babelLanguage=spanish,
+  final,
+  %showtrims,
+  %showwirebinding,
+  webversion,
+  %mixamversion,
+]{chantingbook}
+
+\usepackage{local}
+\usepackage{subcaption}
+
+
+\title{Libro de Cánticos · Segundo Volumen }
+\subtitle{Discursos, Parittas y Cánticos Funerarios}
+
+\ISBN{000-0-00000-000-0}
+\editionInfo{\textit{Primera Edición}, 2025}
+
+\renewcommand\listfirstlinesname{Lista de Primeras Lineas}
+
+\begin{document}
+
+\frontmatter
+
+
+% Not \webcover, b/c we're using \AddToShipoutPicture for cover design.
+\ifwebversion
+\input{./chapters/spanish/webcover-vol2.tex}%
+\fi
+
+%\webcover{%
+%\includegraphics[height=\paperheight]{es-webcover-vol2.jpg}%
+%}
+
+\cleartoverso
+\input{./chapters/spanish/copyright.tex}
+
+\cleartorecto
+\tableofcontents*
+
+\clearpage
+%\input{./chapters/spanish/a-pronuncia-pali.tex}
+
+% NOTE: References are commented out, but keep them in the source for information.
+%\input{./chapters/abbreviations.tex}
+
+\clearpage
+\chapterstyle{tocchapternoskip}
+\listfirstlines*
+
+\mainmatter
+
+\input{./chapters/spanish/chapters-vol2.tex}
+
+\part{Apéndice}
+
+\appendixsize
+
+\input{./chapters/spanish/a-pronuncia-pali.tex}
+
+\input{./chapters/spanish/etiqueta.tex}
+
+\input{./chapters/spanish/glossary.tex}
+
+\cleartorecto
+\input{./chapters/spanish/care_dhamma.tex}
+
+
+\clearpage
+\input{./chapters/spanish/copyright-details.tex}
+
+\end{document}
+
+% End of main.tex
