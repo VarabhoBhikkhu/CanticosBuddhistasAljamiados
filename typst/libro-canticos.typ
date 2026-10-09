@@ -86,8 +86,8 @@
 
 // Un verso: texto en Pāli y debajo la traducción
 #let pl(pali, es) = block(breakable: false, below: 0.85em)[
-  #text(weight: "regular", size: 10.5pt)[#pali] \
-  #text(style: "italic", fill: luma(50), size: 10pt)[#es]
+  #text(weight: "regular", size: 16.5pt)[#pali] \
+  #text(font: "Arabico Personal Use",style: "italic", fill: luma(50), size: 15pt)[#es]
 ]
 
 // Solo Pāli (p. ej. vespertinos, donde pali y español están en páginas enfrentadas)
@@ -151,7 +151,7 @@
 #set text(size: 9.5pt)
 #align(center)[
   *Para distribución gratuita* \
-  #text(style: "italic")[Sabbadānaṁ dhammadānaṁ jināti] \
+  #text(style: "italic")[सब्बदानं धम्मदानं जिनाति] \
   ‘La ofrenda de Dhamma es superior a cualquier otra ofrenda.’
 ]
 #v(1em)
@@ -210,10 +210,10 @@ Segunda edición, 2025
 
 == Dedicación de Ofrendas
 // #pl("Pāli…", "Traducción…")   ← pegar aquí los versos de las pp. 2–3
-#pl("[Yo so] bhagavā arahaṁ sammāsambuddho", "Al Buddha, Az-Zāhid, que totalmente alcanzó la iluminación perfecta,
+#pl("[यो सो] भगवा अरहं सम्मासम्बुद्धो", "Al Buddha, Az-Zāhid, que totalmente alcanzó la iluminación perfecta,
 اَلَاکْشْسَالْشُ، ءَالْمَاَاشْتْرُ، کَاتُتَلْمَانْتَا اَلْکَنْسُ لَاِلُمِنَسِيُنْ بَّارْفَاکْتَ،")
 
-#pl("Svākkhāto yena bhagavatā dhammo", "A las enseñanzas, tan bien explicadas por Él,
+#pl("स्वाक्खातो येन भगवता धम्मो", "A las enseñanzas, tan bien explicadas por Él,
 اَلَشَانْشَانَّنْسَشْ، تَنْ بِيَانْ ءَاکْشْبّْلِکَذَشْ بُّرَالْ،")
 
 == Homenaje Preliminar
