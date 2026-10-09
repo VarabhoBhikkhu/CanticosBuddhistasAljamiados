@@ -1,0 +1,462 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2025/dev/Debian) (preloaded format=xelatex 2025.9.26)  9 OCT 2026 09:17
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main-es-vol1.tex
+(./main-es-vol1.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(./chantingbook.cls
+Document Class: chantingbook 2015/01/26 v0.1 A memoir-based documentclass for a
+ chanting book.
+\BOOK@paperHeight=\skip49
+\BOOK@paperWidth=\skip50
+\BOOK@typeBlockHeight=\skip51
+\BOOK@typeBlockWidth=\skip52
+(/usr/share/texlive/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+(/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
+.code.tex
+\pgfkeys@tmptoks=\toks19
+)))
+\pgfopts@list@add@a@toks=\toks20
+\pgfopts@list@add@b@toks=\toks21
+) (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count192
+\calc@Bcount=\count193
+\calc@Adimen=\dimen141
+\calc@Bdimen=\dimen142
+\calc@Askip=\skip53
+\calc@Bskip=\skip54
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count194
+\calc@Cskip=\skip55
+)
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2025/03/06 v3.8.3 configurable book, report, article doc
+ument class
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count195
+\l__pdf_internal_box=\box52
+\g__pdf_backend_annotation_int=\count196
+\g__pdf_backend_link_int=\count197
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count198
+))
+\onelineskip=\skip56
+\lxvchars=\skip57
+\xlvchars=\skip58
+\@memcnta=\count199
+\c@@memmarkcntra=\count266
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+)
+\trimtop=\skip59
+\trimedge=\skip60
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem11.clo
+File: mem11.clo 2022/07/29 v0.5 memoir class 11pt size option
+)
+\binding=\skip61
+\spinemargin=\skip62
+\foremargin=\skip63
+\uppermargin=\skip64
+\lowermargin=\skip65
+\headdrop=\skip66
+\normalrulethickness=\skip67
+\mem@maxheadheight=\skip68
+\mem@maxfootheight=\skip69
+\headwidth=\skip70
+\c@storedpagenumber=\count267
+\memPD=\dimen143
+\m@mabparskip=\skip71
+\thanksmarkwidth=\skip72
+\thanksmarksep=\skip73
+\droptitle=\skip74
+\c@book=\count268
+\c@part=\count269
+\c@chapter=\count270
+\c@section=\count271
+\c@subsection=\count272
+\c@subsubsection=\count273
+\c@paragraph=\count274
+\c@subparagraph=\count275
+\beforechapskip=\skip75
+\midchapskip=\skip76
+\afterchapskip=\skip77
+\chapindent=\skip78
+\bottomsectionskip=\skip79
+\secindent=\skip80
+\beforesecskip=\skip81
+\aftersecskip=\skip82
+\subsecindent=\skip83
+\beforesubsecskip=\skip84
+\aftersubsecskip=\skip85
+\subsubsecindent=\skip86
+\beforesubsubsecskip=\skip87
+\aftersubsubsecskip=\skip88
+\paraindent=\skip89
+\beforeparaskip=\skip90
+\afterparaskip=\skip91
+\subparaindent=\skip92
+\beforesubparaskip=\skip93
+\aftersubparaskip=\skip94
+\pfbreakskip=\skip95
+\c@@ppsavesec=\count276
+\c@@ppsaveapp=\count277
+\ragrparindent=\dimen144
+\everylistparindent=\dimen145
+\parsepi=\skip96
+\topsepi=\skip97
+\itemsepi=\skip98
+\parsepii=\skip99
+\topsepii=\skip100
+\topsepiii=\skip101
+\itemsepii=\skip102
+\itemsepiii=\skip103
+\partopsepii=\skip104
+\partopsepiii=\skip105
+\m@msavetopsep=\skip106
+\m@msavepartopsep=\skip107
+\@enLab=\toks22
+\abstitleskip=\skip108
+\absleftindent=\skip109
+\abs@leftindent=\dimen146
+\absrightindent=\skip110
+\absparindent=\skip111
+\absparsep=\skip112
+\c@vslineno=\count278
+\c@poemline=\count279
+\c@modulo@vs=\count280
+\c@memfvsline=\count281
+\vleftskip=\skip113
+\vrightskip=\skip114
+\stanzaskip=\skip115
+\versewidth=\skip116
+\vgap=\skip117
+\vindent=\skip118
+\vleftmargin=\dimen147
+\c@verse=\count282
+\c@chrsinstr=\count283
+\beforepoemtitleskip=\skip119
+\afterpoemtitleskip=\skip120
+\c@poem=\count284
+\beforePoemTitleskip=\skip121
+\midPoemTitleskip=\skip122
+\afterPoemTitleskip=\skip123
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen148
+\ar@mcellbox=\box53
+\extrarowheight=\dimen149
+\NC@list=\toks23
+\extratabsurround=\skip124
+\backup@length=\skip125
+\ar@cellbox=\box54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen150
+\TX@old@table=\dimen151
+\TX@old@col=\dimen152
+\TX@target=\dimen153
+\TX@delta=\dimen154
+\TX@cols=\count285
+\TX@ftn=\toks24
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen155
+\lightrulewidth=\dimen156
+\cmidrulewidth=\dimen157
+\belowrulesep=\dimen158
+\belowbottomsep=\dimen159
+\aboverulesep=\dimen160
+\abovetopsep=\dimen161
+\cmidrulesep=\dimen162
+\cmidrulekern=\dimen163
+\defaultaddspace=\dimen164
+\@cmidla=\count286
+\@cmidlb=\count287
+\@aboverulesep=\dimen165
+\@belowrulesep=\dimen166
+\@thisruleclass=\count288
+\@lastruleclass=\count289
+\@thisrulewidth=\dimen167
+)
+\ctableftskip=\skip126
+\ctabrightskip=\skip127
+\abovecolumnspenalty=\count290
+\@linestogo=\count291
+\@cellstogo=\count292
+\@cellsincolumn=\count293
+\crtok=\toks25
+\@mincolumnwidth=\dimen168
+\c@newflo@tctr=\count294
+\mem@margin@floatbox=\box55
+\@contcwidth=\skip128
+\@contindw=\skip129
+\abovecaptionskip=\skip130
+\belowcaptionskip=\skip131
+\subfloattopskip=\skip132
+\subfloatcapskip=\skip133
+\subfloatcaptopadj=\skip134
+\subfloatbottomskip=\skip135
+\subfloatlabelskip=\skip136
+\subfloatcapmargin=\dimen169
+\c@@contsubnum=\count295
+\m@mscap@capbox=\box56
+\m@mscap@fbox=\box57
+\sidecapsep=\dimen170
+\sidecapwidth=\dimen171
+\m@m@tempdima=\dimen172
+\m@mscapraise=\dimen173
+\sidecapraise=\dimen174
+\m@mscapmainwidth=\dimen175
+\m@mscaplkern=\dimen176
+\beforeepigraphskip=\skip137
+\afterepigraphskip=\skip138
+\epigraphwidth=\skip139
+\epigraphrule=\skip140
+LaTeX Info: Redefining \em on input line 7017.
+LaTeX Info: Redefining \emph on input line 7025.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\c@section@level=\count296
+)
+\tocentryskip=\skip141
+\tocbaseline=\skip142
+\cftparskip=\skip143
+\cftbeforebookskip=\skip144
+\cftbookindent=\dimen177
+\cftbooknumwidth=\dimen178
+\cftbeforepartskip=\skip145
+\cftpartindent=\skip146
+\cftpartnumwidth=\skip147
+\cftbeforechapterskip=\skip148
+\cftchapterindent=\skip149
+\cftchapternumwidth=\skip150
+\cftbeforesectionskip=\skip151
+\cftsectionindent=\skip152
+\cftsectionnumwidth=\skip153
+\cftbeforesubsectionskip=\skip154
+\cftsubsectionindent=\skip155
+\cftsubsectionnumwidth=\skip156
+\cftbeforesubsubsectionskip=\skip157
+\cftsubsubsectionindent=\skip158
+\cftsubsubsectionnumwidth=\skip159
+\cftbeforeparagraphskip=\skip160
+\cftparagraphindent=\skip161
+\cftparagraphnumwidth=\skip162
+\cftbeforesubparagraphskip=\skip163
+\cftsubparagraphindent=\skip164
+\cftsubparagraphnumwidth=\skip165
+\prechapterprecisshift=\dimen179
+\c@maxsecnumdepth=\count297
+\bibindent=\dimen180
+\bibitemsep=\skip166
+\indexcolsep=\skip167
+\indexrule=\skip168
+\indexmarkstyle=\toks27
+\@indexbox=\insert252
+LaTeX Info: Redefining \raggedbottom on input line 8107.
+LaTeX Info: Redefining \flushbottom on input line 8111.
+\glossarycolsep=\dimen181
+\glossaryrule=\dimen182
+\sideparvshift=\skip169
+\sideins=\insert251
+\sidebartopsep=\skip170
+\sidebarhsep=\skip171
+\sidebarvsep=\skip172
+\sidebarwidth=\skip173
+\footmarkwidth=\skip174
+\footmarksep=\skip175
+\footparindent=\skip176
+\footinsdim=\skip177
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count298
+\m@m@h=\dimen183
+\m@mipn@skip=\skip178
+\sidefootins=\insert248
+\sidefootadjust=\skip179
+\sidefootheight=\skip180
+\sidefoothsep=\skip181
+\sidefootvsep=\skip182
+\sidefootwidth=\skip183
+\m@mdownsf=\skip184
+\c@sidefootnote=\count299
+\sidefootmarkwidth=\skip185
+\sidefootmarksep=\skip186
+\sidefootparindent=\skip187
+\c@pagenote=\count300
+\c@pagenoteshadow=\count301
+\mem@pn@lastkern=\skip188
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks28
+\verbatim@line=\toks29
+\verbatim@in@stream=\read2
+)
+\verbatimindent=\skip189
+\verbatim@out=\write3
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/shortvrb.sty
+Package: shortvrb 2024/10/23 v3.0q Standard LaTeX documentation package V3 (FMi
+)
+)
+\bvboxsep=\skip190
+\c@memfbvline=\count302
+\c@bvlinectr=\count303
+\bvnumlength=\skip191
+\fb@frw=\dimen184
+\fb@frh=\dimen185
+\FrameRule=\dimen186
+\FrameSep=\dimen187
+\c@cp@cntr=\count304
+\c@ism@mctr=\count305
+\c@xsm@mctr=\count306
+\c@csm@mctr=\count307
+\c@ksm@mctr=\count308
+\c@xksm@mctr=\count309
+\c@cksm@mctr=\count310
+\c@msm@mctr=\count311
+\c@xmsm@mctr=\count312
+\c@cmsm@mctr=\count313
+\c@bsm@mctr=\count314
+\c@workm@mctr=\count315
+\c@sheetsequence=\count316
+\c@lastsheet=\count317
+\c@lastpage=\count318
+
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
+Package textcase Info: Defining Legacy names on input line 20.
+)
+\c@figure=\count319
+\c@lofdepth=\count320
+\cftbeforefigureskip=\skip192
+\cftfigureindent=\skip193
+\cftfigurenumwidth=\skip194
+\c@table=\count321
+\c@lotdepth=\count322
+\cftbeforetableskip=\skip195
+\cfttableindent=\skip196
+\cfttablenumwidth=\skip197
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+\babel@savecnt=\count323
+\U@D=\dimen188
+\l@unhyphenated=\language4
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/xebabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count324
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/errbabel.def)
+
+! Package babel Error: Unknown option 'spanish'. Either you misspelled it
+(babel)                or the language definition file spanish.ldf
+(babel)                was not found.
+(babel)                There is a locale ini file for this language.
+(babel)                If it’s the main language, try adding `provide=*'
+(babel)                to the babel package options.
+
+See the babel package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4138 \ProcessOptions*
+                        
+Here is how much of TeX's memory you used:
+ 6815 strings out of 475837
+ 116499 string characters out of 5774699
+ 536494 words of memory out of 5000000
+ 29724 multiletter control sequences out of 15000+600000
+ 558861 words of font info for 39 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 99i,1n,107p,406b,70s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+No pages of output.
