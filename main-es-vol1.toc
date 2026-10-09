@@ -1,0 +1,122 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {part}{\partnumberline {1}Cánticos Matinales}{1}{part.1}%
+\contentsline {chapter}{\chapternumberline {1}Dedicación de Ofrendas}{2}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {2}Homenaje Preliminar}{4}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {3}Homenaje al Buddha}{5}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Homenaje al Dhamma}{7}{chapter.4}%
+\contentsline {chapter}{\chapternumberline {5}Homenaje a la Saṅgha}{8}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Saludo a la Joya Triple}{10}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Homenaje de Cierre}{17}{chapter.7}%
+\contentsline {part}{\partnumberline {2}Cánticos Vespertinos}{19}{part.2}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{20} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {8}Dedicación de Ofrendas}{21}{chapter.8}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{22} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {9}Homenaje Preliminar}{23}{chapter.9}%
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {10}Remembranza del Buddha}{23}{chapter.10}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{24} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {11}Elogio Supremo al Buddha}{25}{chapter.11}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{26} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {12}Remembranza del Dhamma}{27}{chapter.12}%
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {13}Elogio Supremo al Dhamma}{27}{chapter.13}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{28} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {14}Remembranza de la Saṅgha}{29}{chapter.14}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{30} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {15}Elogio Supremo a la Saṅgha}{31}{chapter.15}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{32} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {16}Homenaje de Cierre}{33}{chapter.16}%
+\contentsline {part}{\partnumberline {3}Reflexiones y Remembranzas}{35}{part.3}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{36} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {17}Versos de Dedicación de Mérito}{37}{chapter.17}%
+\contentsline {chapter}{\chapternumberline {18}Versos sobre el Beneficio de la Dádiva}{38}{chapter.18}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{40} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {19}Mettā Sutta}{41}{chapter.19}%
+\contentsline {chapter}{\chapternumberline {20}Once Beneficios de la Práctica de Mettā}{44}{chapter.20}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{46} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {21}Irradiando los Estados Divinos}{47}{chapter.21}%
+\contentsline {chapter}{\chapternumberline {22}Las Supremas Bendiciones}{48}{chapter.22}%
+\contentsline {chapter}{\chapternumberline {23}Así como Ríos}{51}{chapter.23}%
+\global \TocDelegatePageNumbertrue \global \HasDelegatedPageNumbertrue 
+\setcounter {delegatedpage}{54} 
+\global \HasDelegatedPageNumbertrue \global \TocDelegatePageNumberfalse 
+\contentsline {chapter}{\chapternumberline {24}Reflexión sobre el Bienestar Universal}{55}{chapter.24}%
+\contentsline {chapter}{\chapternumberline {25}Reflexión sobre los Cuatro Requisitos}{56}{chapter.25}%
+\contentsline {chapter}{\chapternumberline {26}Reflexión sobre las Treinta y dos Partes}{58}{chapter.26}%
+\contentsline {chapter}{\chapternumberline {27}Reflexión sobre las Cualidades Repugnantes de nuestros Requisitos}{60}{chapter.27}%
+\contentsline {chapter}{\chapternumberline {28}Cinco Temas para Recordar Frecuentemente}{65}{chapter.28}%
+\contentsline {chapter}{\chapternumberline {29}Diez temas para Recordar Frecuentemente}{67}{chapter.29}%
+\contentsline {chapter}{\chapternumberline {30}Verdaderos y Falsos Refugios}{70}{chapter.30}%
+\contentsline {chapter}{\chapternumberline {31}Versos sobre la Riqueza de Uno que es Noble}{72}{chapter.31}%
+\contentsline {chapter}{\chapternumberline {32}Versos sobre las Tres Características}{73}{chapter.32}%
+\contentsline {chapter}{\chapternumberline {33}Versos sobre la Carga}{75}{chapter.33}%
+\contentsline {chapter}{\chapternumberline {34}Versos sobre una Auspiciosa Noche}{76}{chapter.34}%
+\contentsline {chapter}{\chapternumberline {35}Versos de Respeto por el Dhamma}{78}{chapter.35}%
+\contentsline {chapter}{\chapternumberline {36}Ovāda-Pāṭimokkha}{80}{chapter.36}%
+\contentsline {chapter}{\chapternumberline {37}Versos sobre la Primera Exclamación de Buddha}{82}{chapter.37}%
+\contentsline {chapter}{\chapternumberline {38}Versos sobre las Últimas Instrucciones}{83}{chapter.38}%
+\contentsline {chapter}{\chapternumberline {39}Surgen a Partir de una Causa}{84}{chapter.39}%
+\contentsline {chapter}{\chapternumberline {40}Reflexión sobre lo Incondicionado}{85}{chapter.40}%
+\contentsline {chapter}{\chapternumberline {41}Breve Consejo a Gotamī}{86}{chapter.41}%
+\contentsline {chapter}{\chapternumberline {42}La Raíz de Todas las Cosas}{88}{chapter.42}%
+\contentsline {chapter}{\chapternumberline {43}Ānāpānassati-sutta}{90}{chapter.43}%
+\contentsline {chapter}{\chapternumberline {44}La Enseñanza sobre el Óctuple Noble Sendero}{96}{chapter.44}%
+\contentsline {chapter}{\chapternumberline {45}La Enseñanza sobre el Esfuerzo acorde con el Dhamma}{106}{chapter.45}%
+\contentsline {chapter}{\chapternumberline {46}Los Versos de Tāyana}{111}{chapter.46}%
+\contentsline {chapter}{\chapternumberline {47}Bhikkhu-aparihāniya-dhamma-sutta}{113}{chapter.47}%
+\clearpage 
+\contentsline {part}{\partnumberline {4}Solicitudes Formales}{117}{part.4}%
+\contentsline {chapter}{\chapternumberline {48}Añjali}{118}{chapter.48}%
+\contentsline {chapter}{\chapternumberline {49}Solicitando una Enseñanza de Dhamma}{118}{chapter.49}%
+\contentsline {chapter}{\chapternumberline {50}Reconocimiento de una Enseñanza}{118}{chapter.50}%
+\contentsline {chapter}{\chapternumberline {51}Petición de Cántico de Parittas}{119}{chapter.51}%
+\contentsline {chapter}{\chapternumberline {52}Solicitud de los Tres Refugios\newline y Cinco Preceptos}{120}{chapter.52}%
+\contentsline {subsection}{En grupo}{120}{section*.20}%
+\contentsline {subsection}{Individualmente}{120}{section*.21}%
+\contentsline {subsection}{Traducción}{120}{section*.22}%
+\contentsline {chapter}{\chapternumberline {53}Los Tres Refugios}{121}{chapter.53}%
+\contentsline {chapter}{\chapternumberline {54}Los Cinco Preceptos}{122}{chapter.54}%
+\contentsline {chapter}{\chapternumberline {55}Petición de los Tres Refugios\newline y Ocho Preceptos}{124}{chapter.55}%
+\contentsline {subsection}{En grupo}{124}{section*.23}%
+\contentsline {subsection}{Individualmente}{124}{section*.24}%
+\contentsline {subsection}{Traducción}{124}{section*.25}%
+\contentsline {chapter}{\chapternumberline {56}Los Tres Refugios}{125}{chapter.56}%
+\contentsline {chapter}{\chapternumberline {57}Los Ocho Preceptos}{126}{chapter.57}%
+\contentsline {part}{\partnumberline {5}Apéndice}{129}{part.5}%
+\contentsline {chapter}{\chapternumberline {58}Pronunciación en Pāli}{130}{chapter.58}%
+\contentsline {subsection}{Las Vocales}{130}{section*.27}%
+\contentsline {subsection}{Las Consonantes}{130}{section*.28}%
+\contentsline {section}{Técnica de Cánticos}{131}{section*.29}%
+\contentsline {section}{Puntuación, marcas tonales y pausas en esta edición}{132}{section*.30}%
+\contentsline {chapter}{\chapternumberline {59}Etiqueta monástica}{133}{chapter.59}%
+\contentsline {section}{La Reverencia y posturas}{133}{section*.31}%
+\contentsline {subsection}{La reverencia o postración de los cinco puntos}{133}{section*.32}%
+\contentsline {subsection}{La postura preparatoria de la Reverencia:}{133}{section*.33}%
+\contentsline {subsection}{El ‘Añjali’}{134}{section*.35}%
+\contentsline {subsection}{El ‘Vandana’}{134}{section*.37}%
+\contentsline {subsection}{El ‘Abhivada’}{134}{section*.39}%
+\contentsline {subsection}{\SarabunNormalFont พับเพียบ ‘papiyap’}{135}{section*.41}%
+\contentsline {subsection}{Cambio de postura}{135}{section*.43}%
+\contentsline {section}{Etiqueta general en el monasterio y la sala de meditación}{136}{section*.44}%
+\contentsline {chapter}{\chapternumberline {60}Glosario de términos en Pāli }{138}{chapter.60}%
+\contentsfinish 
