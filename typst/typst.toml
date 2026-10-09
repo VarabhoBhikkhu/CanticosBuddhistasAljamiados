@@ -1,0 +1,11 @@
+[package]
+name = "libro-de-canticos-sumedharama"
+version = "1.0.0"
+authors = ["Publicaciones Sumedhārāma <info@sumedharama.pt>"]
+license = "CC-BY-NC-ND-4.0"
+description = "Libro de Cánticos Pāli-Español (Volúmenes I y II)"
+keywords = ["buddhism", "chants", "pali", "spanish", "sumedharama"]
+compiler-version = "0.15.0"
+readme = "readme.md"
+repository = "https://github.com/sumedharama/libro-de-canticos"
+homepage = "https://www.sumedharama.pt"
