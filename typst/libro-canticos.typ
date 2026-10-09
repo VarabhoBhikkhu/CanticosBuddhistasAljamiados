@@ -86,11 +86,11 @@
 
 // Un verso: texto en Pāli y debajo la traducción
 #let pl(pali, es) = block(breakable: false, below: 0.85em)[
-  #text(weight: "regular", size: 16.5pt)[#pali] \
+  #text(font:"Kripa",weight: "regular", size: 17.5pt)[#pali] \
   #text(font: "Arabico Personal Use",style: "italic", fill: luma(50), size: 15pt)[#es]
 ]
 
-// Solo Pāli (p. ej. vespertinos, donde pali y español están en páginas enfrentadas)
+// Solo Pāli (p. ej. vespertinos, donde pali y español están en páginas enfrentadas)pl
 #let p(txt) = block(below: 0.35em)[#txt]
 // Solo traducción
 #let es(txt) = block(below: 0.35em)[#text(style: "italic", fill: luma(50))[#txt]]
@@ -219,12 +219,110 @@ Segunda edición, 2025
 == Homenaje Preliminar
 
 == Homenaje al Buddha
+#pl("[Handa mayaṁ buddhābhitthutiṁ karomase]", "Cantemos ahora en elogio al Buddha.")
+#pl("Yo so tathāgato arahaṁ sammāsambuddho", "El Tathāgata es puro y perfectamente iluminado.")
+#pl("Vijjācaraṇa-sampanno", "Impecable en conducta y comprensión,")
+#pl("Sugato", "Realizado,")
+#pl("Lokavidū", "Conocedor de los mundos.")
+#pl("Anuttaro purisadamma-sārathi", "Él entrena perfectamente a aquellos que desean entrenarse.")
+#pl("Satthā deva-manussānaṁ", "Él es Maestro de dioses y humanos.")
+#pl("Buddho bhagavā", "Él es despierto y sagrado.")
+#pl("Yo imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ", "En este mundo con sus dioses, demonios y espíritus gentiles,")
+#pl("Sassamaṇa-brāhmaṇiṁ pajaṁ sadeva-manussaṁ sayaṁ abhiññā sacchikatvā pavedesi", "Sus buscadores y sabios, seres celestiales y humanos, Él reveló la verdad a través de una comprensión profunda.")
+#pl("Yo dhammaṁ desesi ādi-kalyāṇaṁ majjhe-kalyāṇaṁ pariyosāna-kalyāṇaṁ", "Él explicó el Dhamma: Sublime al principio, Sublime en el medio y Sublime al final.")
+#pl("Sātthaṁ sabyañjanaṁ kevala-paripuṇṇaṁ parisuddhaṁ brahma-cariyaṁ pakāsesi", "Él explicó la vida espiritual de completa pureza, En su esencia y convenciones.")
+#pl("Tam-ahaṁ bhagavantaṁ abhipūjayāmi tam-ahaṁ bhagavantaṁ sirasā namāmi", "Yo canto mi elogio al Buddha, yo saludo respetuosamente al Excelso.")
 
 == Homenaje al Dhamma
+#pl("[Handa mayaṁ dhammābhitthutiṁ karomase]", "Cantemos ahora en elogio al Dhamma")
+#pl("Yo so svākkhāto bhagavatā dhammo", "El Dhamma, tan bien explicado por el Excelso,")
+#pl("Sandiṭṭhiko", "Presente aquí y ahora,")
+#pl("Akāliko", "Intemporal,")
+#pl("Ehipassiko", "Incentivando a investigar,")
+#pl("Opanayiko", "Guiando al interior,")
+#pl("Paccattaṁ veditabbo viññūhi", "Para ser experimentado individualmente por los sabios.")
+#pl("Tam-ahaṁ dhammaṁ abhipūjayāmi tam-ahaṁ dhammaṁ sirasā namāmi", "Yo canto mi elogio a estas enseñanzas, yo saludo respetuosamente esta verdad.")
+#rev
 
 == Homenaje a la Saṅgha
+#pl("[Handa mayaṁ saṅghābhitthutiṁ karomase]", "Cantemos ahora en elogio a la Saṅgha.")
+#pl("Yo so supaṭipanno bhagavato sāvakasaṅgho", "Son los discípulos del Maestro que practicaron correctamente,")
+#pl("Ujupaṭipanno bhagavato sāvakasaṅgho", "Que practicaron directamente,")
+#pl("Ñāyapaṭipanno bhagavato sāvakasaṅgho", "Que practicaron con reflexión,")
+#pl("Sāmīcipaṭipanno bhagavato sāvakasaṅgho", "Aquellos que practicaron con integridad —")
+#pl("Yadidaṁ cattāri purisayugāni aṭṭha purisapuggalā", "Es decir, los cuatro pares, los ocho tipos de Seres Nobles —")
+#pl("Esa bhagavato sāvakasaṅgho", "Estos son los discípulos del Maestro.")
+#pl("Āhuneyyo", "Tales discípulos son merecedores de presentes,")
+#pl("Pāhuneyyo", "Merecedores de hospitalidad,")
+#pl("Dakkhiṇeyyo", "Merecedores de ofrendas,")
+#pl("Añjali-karaṇīyo", "Merecedores de respeto;")
+#pl("Anuttaraṁ puññakkhettaṁ lokassa", "Ellos promueven el surgir de un bien incomparable en el mundo.")
+#pl("Tam-ahaṁ saṅghaṁ abhipūjayāmi tam-ahaṁ saṅghaṁ sirasā namāmi", "Yo canto mi elogio a esta Saṅgha, yo saludo respetuosamente a esta Saṅgha.")
+#rev
 
 == Saludo a la Joya Triple
+#pl("[Handa mayaṁ ratanattaya-paṇāma-gāthāyo c’eva saṁvega-parikittana-pāṭhañca bhaṇāmase]", "Cantemos ahora nuestro saludo a la Joya Triple y los versos que estimulan el sentido de urgencia.")
+#pl("Buddho susuddho karuṇā-mahaṇṇavo", "El Buddha absolutamente puro, con compasión como el Océano,")
+#pl("Yo’ccanta-suddhabbara-ñāṇa-locano", "Poseyendo la visión clara de Sabiduría,")
+#pl("Lokassa pāpūpakilesa-ghātako", "Destructor de los defectos mundanos")
+#pl("Vandāmi buddhaṁ aham-ādarena taṁ", "En plena devoción, ese Buddha yo venero.")
+#pl("Dhammo padīpo viya tassa satthuno", "Las enseñanzas del Maestro, como una lámpara,")
+#pl("Yo magga-pākāmata-bheda-bhinnako", "Iluminan el camino y su fruto: la Realidad Inmortal,")
+#pl("Lokuttaro yo ca tad-attha-dīpano", "Aquello que está más allá del mundo condicionado")
+#pl("Vandāmi dhammaṁ aham-ādarena taṁ", "En plena devoción, ese Dhamma yo venero.")
+#pl("Saṅgho sukhettābhyati-khetta-saññito", "La Saṅgha, el mejor terreno para el cultivo,")
+#pl("Yo diṭṭha-santo sugatānubodhako", "Aquellos que realizaron la paz, despertando después del Maestro,")
+#pl("Lolappahīno ariyo sumedhaso", "Nobles y Sabios, habiendo abandonado todo anhelo,")
+#pl("Vandāmi saṅghaṁ aham-ādarena taṁ", "En plena devoción, esa Saṅgha yo venero.")
+#pl("Iccevam-ekantabhipūja-neyyakaṁ vatthuttayaṁ vandayatābhisaṅkhataṁ", "Este saludo debe ser hecho a lo que tiene valor.")
+#pl("Puññaṁ mayā yaṁ mama sabbupaddavā mā hontu ve tassa pabhāva-siddhiyā", "A través del poder de esta acción benéfica, que todos los obstáculos puedan ser vencidos.")
+#pl("Idha tathāgato loke uppanno arahaṁ sammāsambuddho", "Aquel que conoce las cosas como son, vino a este mundo y es un Arahant, un ser perfectamente despierto.")
+#pl("Dhammo ca desito niyyāniko upasamiko parinibbāniko sambodhagāmī sugatappavedito", "Purificando la vía que libera de la ilusión, tranquilizando y dirigiéndose hacia la paz perfecta, guiando a la Iluminación: Este Camino Él dió a conocer.")
+#pl("Mayan-taṁ dhammaṁ sutvā evaṁ jānāma", "Habiendo oído las Enseñanzas sabemos lo siguiente:")
+#pl("Jātipi dukkhā", "El nacimiento es dukkha,")
+#pl("Jarāpi dukkhā", "El envejecimiento es dukkha,")
+#pl("Maraṇampi dukkhaṁ", "La muerte es dukkha;")
+#pl("Soka-parideva-dukkha-domanass’upāyāsāpi dukkhā", "Tristeza, lamentación, dolor, angustia y desespero son dukkha;")
+#pl("Appiyehi sampayogo dukkho", "Asociación con lo que no gusta es dukkha;")
+#pl("Piyehi vippayogo dukkho", "Separación de lo que gusta es dukkha;")
+#pl("Yamp’icchaṁ na labhati tampi dukkhaṁ", "No alcanzar aquello que se quiere es dukkha.")
+#pl("Saṅkhittena pañcupādānakkhandhā dukkhā", "Resumiendo, las cinco khandhas son dukkha.")
+#pl("Seyyathīdaṁ", "Estas son:")
+#pl("Rūpūpādānakkhandho", "Apego a la forma,")
+#pl("Vedanūpādānakkhandho", "Apego a la sensación,")
+#pl("Saññūpādānakkhandho", "Apego a la percepción,")
+#pl("Saṅkhārūpādānakkhandho", "Apego a las formaciones mentales,")
+#pl("Viññāṇūpādānakkhandho", "Apego a la cognición.")
+#pl("Yesaṁ pariññāya", "Para esta total comprensión,")
+#pl("Dharamāno so bhagavā evaṁ bahulaṁ sāvake vineti", "Durante su vida, el Excelso instruyó frecuentemente así a sus discípulos.")
+#pl("Evaṁ bhāgā ca panassa bhagavato sāvakesu anusāsanī bahulā pavattati", "Más allá de eso, Él instruyó:")
+#pl("Rūpaṁ aniccaṁ", "La forma es impermanente,")
+#pl("Vedanā aniccā", "La sensación es impermanente,")
+#pl("Saññā aniccā", "La percepción es impermanente,")
+#pl("Saṅkhārā aniccā", "Las formaciones mentales son impermanentes,")
+#pl("Viññāṇaṁ aniccaṁ", "La cognición es impermanente;")
+#pl("Rūpaṁ anattā", "La forma no es ‘yo’,")
+#pl("Vedanā anattā", "La sensación no es ‘yo’,")
+#pl("Saññā anattā", "La percepción no es ‘yo’,")
+#pl("Saṅkhārā anattā", "Las formaciones mentales no son ‘yo’,")
+#pl("Viññāṇaṁ anattā", "La cognición no es ‘yo’;")
+#pl("Sabbe saṅkhārā aniccā", "Ninguna condición es permanente,")
+#pl("Sabbe dhammā anattā’ti", "No hay un ‘yo’ en lo creado o lo increado.")
+#pl("Te mayaṁ otiṇṇāmha jātiyā jarā-maraṇena", "Todos nosotros nos vemos arrastrados por el nacimiento, el envejecimiento y la muerte,")
+#pl("Sokehi paridevehi dukkhehi domanassehi upāyāsehi", "Por la tristeza, lamentación, dolor, angustia y desespero,")
+#pl("Dukkhotiṇṇā dukkha-paretā", "Arrastrados por dukkha y obstruidos por dukkha.")
+#pl("Appeva nāmimassa kevalassa dukkha-kkhandhassa antakiriyā paññāyethā’ti", "Que alcancemos el fin de toda esta masa de sufrimiento.")
+#nota("La parte que sigue es cantada solamente por los monjes.")
+#pl("Cira-parinibbutampi taṁ bhagavantaṁ uddissa arahantaṁ sammāsambuddhaṁ", "Recordando al Excelso, el Noble Maestro, el Perfectamente Iluminado, que hace mucho alcanzó el Parinibbāna,")
+#pl("Saddhā agārasmā anagāriyaṁ pabbajitā", "Partimos con confianza del hogar hacia la vida monástica.")
+#pl("Tasmiṁ bhagavati brahma-cariyaṁ carāma", "Así como el Iluminado, practicamos la Vida Sagrada,")
+#pl("Bhikkhūnaṁ sikkhāsājīva-samāpannā", "Completamente equipados con el sistema de entrenamiento de los Bhikkhus.")
+#pl("Taṁ no brahma-cariyaṁ imassa kevalassa dukkha-kkhandhassa antakiriyāya saṁvattatu", "Que esta vida purificada pueda conducirnos al término de toda esta masa de sufrimiento.")
+#nota("Una versión alternativa de la sección anterior, que puede ser también cantada por los laicos.")
+#pl("Cira-parinibbutampi taṁ bhagavantaṁ saraṇaṁ gatā", "El Excelso, aunque hace tiempo alcanzó el Parinibbāna, es nuestro refugio.")
+#pl("Dhammañca saṅghañca", "Así como el Dhamma y la Saṅgha.")
+#pl("Tassa bhagavato sāsanaṁ yathā-sati yathā-balaṁ manasikaroma anupaṭipajjāma", "Seguimos el camino de aquel Excelso, atentamente con toda nuestra fuerza y conciencia.")
+#pl("Sā sā no paṭipatti Imassa kevalassa dukkha-kkhandhassa antakiriyāya saṁvattatu", "Que el cultivo de esta práctica pueda conducirnos al término de toda esta masa de sufrimiento.")
 
 == Homenaje de Cierre
 

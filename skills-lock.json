@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "typst-author": {
+      "source": "apcamargo/typst-skills",
+      "sourceType": "github",
+      "skillPath": "typst-author/SKILL.md",
+      "computedHash": "b4916ba6212df05ab31b1bf90d58aeb6a9822290c290eba70cd967f056bff242"
+    }
+  }
+}
