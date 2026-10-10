@@ -119,7 +119,6 @@
 //  PORTADA Y PÁGINAS PRELIMINARES
 // ============================================================
 #set page(header: none, numbering: none)
-
 #align(center + horizon)[
   #text(font: f-sans, size: 34pt, weight: "bold", fill: color-acento)[Cánticos]
   #v(0.6em)
@@ -325,15 +324,23 @@ Segunda edición, 2025
 #pl("Sā sā no paṭipatti Imassa kevalassa dukkha-kkhandhassa antakiriyāya saṁvattatu", "Que el cultivo de esta práctica pueda conducirnos al término de toda esta masa de sufrimiento.")
 
 == Homenaje de Cierre
+#pl("[Arahaṁ] sammāsambuddho bhagavā", "Al Maestro, el perfectamente Iluminado y Excelso")
+#pl("Buddhaṁ bhagavantaṁ abhivādemi", "Al Buddha, el Excelso, yo rindo homenaje.")
+#rev
 
+#pl("[Svākkhāto] bhagavatā dhammo", "A las Enseñanzas, tan bien explicadas por Él")
+#pl("Dhammaṁ namassāmi", "Al Dhamma, yo rindo homenaje.")
+#rev
+
+#pl("[Supaṭipanno] bhagavato sāvakasaṅgho", "A los discípulos del Excelso que tan bien practicaron")
+#pl("Saṅghaṁ namāmi", "A la Saṅgha, yo rindo homenaje.")
+#rev  
 // ============================================================
 //  PARTE 2 — CÁNTICOS VESPERTINOS
 //  (en el original: Pāli en página par, traducción en la impar)
 // ============================================================
 #pagebreak(to: "odd")
 = Cánticos Vespertinos
-
-
 
 == Dedicación de Ofrendas
 
@@ -350,8 +357,19 @@ Segunda edición, 2025
 == Remembranza de la Saṅgha
 
 == Elogio Supremo a la Saṅgha
-
 == Homenaje de Cierre
+#pl("[Arahaṁ] sammāsambuddho bhagavā", "Al Maestro, el perfectamente Iluminado y Excelso")
+#pl("Buddhaṁ bhagavantaṁ abhivādemi", "Al Buddha, el Excelso, yo rindo homenaje.")
+#rev
+
+#pl("[Svākkhāto] bhagavatā dhammo", "A las Enseñanzas, tan bien explicadas por Él")
+#pl("Dhammaṁ namassāmi", "Al Dhamma, yo rindo homenaje.")
+#rev
+
+#pl("[Supaṭipanno] bhagavato sāvakasaṅgho", "A los discípulos del Excelso que tan bien practicaron")
+#pl("Saṅghaṁ namāmi", "A la Saṅgha, yo rindo homenaje.")
+#rev
+
 
 // ============================================================
 //  PARTE 3 — REFLEXIONES Y REMEMBRANZAS
@@ -360,6 +378,8 @@ Segunda edición, 2025
 = Reflexiones y Remembranzas
 
 == Versos de Dedicación de Mérito
+
+
 == Versos sobre el Beneficio de la Dádiva
 == Mettā Sutta
 == Once Beneficios de la Práctica de Mettā
