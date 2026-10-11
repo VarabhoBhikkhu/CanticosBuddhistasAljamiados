@@ -394,6 +394,17 @@ Segunda edición, 2025
 == Diez temas para Recordar Frecuentemente
 == Verdaderos y Falsos Refugios
 == Versos sobre la Riqueza de Uno que es Noble
+#pl("Yassa saddhā tathāgate acalā supatiṭṭhitā", "Aquél cuya confianza en el Tathāgata es inquebrantable y establecida bien,")
+#pl("Sīlañca yassa kalyāṇaṁ ariya-kantaṁ pasaṁsitaṁ", "cuya virtud es admirable, tiene el regocijo y elogio de los Nobles.")
+
+#pl("Saṅghe pasādo yass’atthi uju-bhūtañca dassanaṁ", "Aquél que tiene confianza en la Saṅgha, que ve directamente la verdadera realidad,")
+#pl("Adaliddo’ti taṁ āhuamoghaṁ tassa jīvitaṁ", "de él se dice que no es ‘pobre’ y que en vano no es su vida.")
+
+#pl("Tasmā saddhañca sīlañca pasādaṁ dhamma-dassanaṁ", "Por ello, a la virtud y a la fe, a la confianza y al saber de la verdad —")
+#pl("Anuyuñjetha medhāvīsaraṁ buddhāna sāsanaṁ", "a esto los sabios se deben dedicar, manteniendo las enseñanzas de Buddha en la mente.")
+
+
+
 == Versos sobre las Tres Características
 == Versos sobre la Carga
 == Versos sobre una Auspiciosa Noche
