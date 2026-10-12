@@ -13,14 +13,19 @@
 // ---------- Tipografías (las del original) ----------
 #let f-texto = ("Gentium Plus", "Gentium Incantation", "Gentium Book Plus")
 #let f-sans = ("Alegreya Sans", "Ubuntu")
-#let color-acento = rgb("#7a3b12")
+#let color-titulo = rgb("#C58E00")
+#let color-resaltado = rgb("#AD7121")
+#let color-texto = rgb("#5A5D5A")
+#let color-fondo-quote = rgb("#EFEFEF")
+#let color-acento = color-resaltado
+
 
 // ---------- Página ----------
 #set page(
   width: 148mm, height: 210mm,      // A5
   margin: (inside: 18mm, outside: 14mm, top: 20mm, bottom: 18mm),
 )
-#set text(font: f-texto, size: 10.5pt, lang: "es")
+#set text(font: f-texto, size: 10.5pt, fill: color-texto, lang: "es")
 #set par(justify: false, leading: 0.6em, spacing: 0.8em)
 
 // ---------- Encabezados ----------
@@ -86,8 +91,8 @@
 
 // Un verso: texto en Pāli y debajo la traducción
 #let pl(pali, es) = block(breakable: false, below: 0.85em)[
-  #text(font:"Kripa",weight: "regular", size: 17.5pt)[#pali] \
-  #text(font: "Arabico Personal Use",style: "italic", fill: luma(50), size: 15pt)[#es]
+  #text(font:"Alegreya Sans",weight: "regular", size: 14pt)[#pali] \
+  #align(right)[#text(font: "Syamsiah Arabic",style: "italic", fill: luma(28.2%), size: 14pt)[#es]]
 ]
 
 // Solo Pāli (p. ej. vespertinos, donde pali y español están en páginas enfrentadas)pl
@@ -114,23 +119,21 @@
 #let gl(term, def) = block(below: 0.55em)[
   #text(weight: "bold")[#term] #def
 ]
+// ============================================================
+//  PORTADA
+// ============================================================
+#set page(header: none, numbering: none, margin: 0pt)
 
-// ============================================================
-//  PORTADA Y PÁGINAS PRELIMINARES
-// ============================================================
-#set page(header: none, numbering: none)
-#align(center + horizon)[
-  #text(font: f-sans, size: 34pt, weight: "bold", fill: color-acento)[Cánticos]
-  #v(0.6em)
-  #text(font: f-sans, size: 12pt, tracking: 1.5pt)[VOLUMEN I]
-  #v(0.4em)
-  #text(font: f-sans, size: 14pt, weight: "medium")[
-    CÁNTICOS MATINALES Y VESPERTINOS (PŪJĀ) Y REFLEXIONES
-  ]
-  #v(1em)
-  #text(font: f-sans, size: 12pt)[PĀLI #h(0.6em) | #h(0.6em) ESPAÑOL ANDALUSI]
+#place(center + horizon)[
+  #image("../images/BuddhaFondo.jpg", width: 100%, height: 100%, fit: "cover")
+]
+#place(left + horizon, dx: 30mm)[
+  #text(font: f-sans, size: 32pt, weight: "bold", fill: white)[Cánticos Buddhistas]
 ]
 #pagebreak()
+
+// RESTABLECER MÁRGENES PARA EL RESTO DEL DOCUMENTO
+#set page(margin: (inside: 18mm, outside: 14mm, top: 20mm, bottom: 18mm))
 
 // Anteportada
 #align(center + horizon)[
@@ -218,19 +221,19 @@ Segunda edición, 2025
 == Homenaje Preliminar
 
 == Homenaje al Buddha
-#pl("[Handa mayaṁ buddhābhitthutiṁ karomase]", "Cantemos ahora en elogio al Buddha.")
-#pl("Yo so tathāgato arahaṁ sammāsambuddho", "El Tathāgata es puro y perfectamente iluminado.")
-#pl("Vijjācaraṇa-sampanno", "Impecable en conducta y comprensión,")
-#pl("Sugato", "Realizado,")
-#pl("Lokavidū", "Conocedor de los mundos.")
-#pl("Anuttaro purisadamma-sārathi", "Él entrena perfectamente a aquellos que desean entrenarse.")
-#pl("Satthā deva-manussānaṁ", "Él es Maestro de dioses y humanos.")
-#pl("Buddho bhagavā", "Él es despierto y sagrado.")
-#pl("Yo imaṁ lokaṁ sadevakaṁ samārakaṁ sabrahmakaṁ", "En este mundo con sus dioses, demonios y espíritus gentiles,")
-#pl("Sassamaṇa-brāhmaṇiṁ pajaṁ sadeva-manussaṁ sayaṁ abhiññā sacchikatvā pavedesi", "Sus buscadores y sabios, seres celestiales y humanos, Él reveló la verdad a través de una comprensión profunda.")
-#pl("Yo dhammaṁ desesi ādi-kalyāṇaṁ majjhe-kalyāṇaṁ pariyosāna-kalyāṇaṁ", "Él explicó el Dhamma: Sublime al principio, Sublime en el medio y Sublime al final.")
-#pl("Sātthaṁ sabyañjanaṁ kevala-paripuṇṇaṁ parisuddhaṁ brahma-cariyaṁ pakāsesi", "Él explicó la vida espiritual de completa pureza, En su esencia y convenciones.")
-#pl("Tam-ahaṁ bhagavantaṁ abhipūjayāmi tam-ahaṁ bhagavantaṁ sirasā namāmi", "Yo canto mi elogio al Buddha, yo saludo respetuosamente al Excelso.")
+#pl("[हन्द मयम् बुद्धभित्थुतिं करोमसे]", "Cantemos ahora en elogio al Buddha.")
+#pl("यो सो तथागतो अरहं सम्मासम्बुद्धो", "El Tathāgata es puro y perfectamente iluminado.")
+#pl("विज्जाचरण-सम्पन्नो", "Impecable en conducta y comprensión,")
+#pl("सुगतो", "Realizado,")
+#pl("लोकविदू", "Conocedor de los mundos.")
+#pl("अनुत्तरो पुरिसदम्म-सारथि", "Él entrena perfectamente a aquellos que desean entrenarse.")
+#pl("सत्था देव-मनुस्सानं", "Él es Maestro de dioses y humanos.")
+#pl("बुद्धो भगवा", "Él es despierto y sagrado.")
+#pl("यो इमं लोकं सदेवकं समाराकं सब्रह्मकं", "En este mundo con sus dioses, demonios y espíritus gentiles,")
+#pl("सस्समणं-ब्राह्मणिं पजं सदेव-मनुस्सं सयं अभिञ्ञा सच्चिकतवा पवेदेसि", "Sus buscadores y sabios, seres celestiales y humanos, Él reveló la verdad a través de una comprensión profunda.")
+#pl("यो धम्मं देसेसि आदि-कल्याणं मज्झे-कल्याणं परियोसान-कल्याणं", "Él explicó el Dhamma: Sublime al principio, Sublime en el medio y Sublime al final.")
+#pl("सात्थं सब्यञ्जनं केवल-परिपुण्णं परिसुद्धं ब्रह्म-चरियं पकासेसि", "Él explicó la vida espiritual de completa pureza, En su esencia y convenciones.")
+#pl("तम्-अहं भगवन्तं अभिपुजयामि तम्-अहं भगवन्तं सिरसा नमामि", "Yo canto mi elogio al Buddha, yo saludo respetuosamente al Excelso.")
 
 == Homenaje al Dhamma
 #pl("[Handa mayaṁ dhammābhitthutiṁ karomase]", "Cantemos ahora en elogio al Dhamma")
@@ -445,8 +448,95 @@ Segunda edición, 2025
 
 == Pronunciación en Pāli
 == Etiqueta monástica
+
+=== La Reverencia y posturas
+Inclinarse, o postrarse ante lo que uno considera digno del mayor respeto, ya sean mayores o maestros, objetos o lugares sagrados, es una costumbre milenaria de la cultura budista y una de las muchas y hermosas formas de etiqueta budista. 
+
+Realizada de forma correcta y consciente, la postración no es solo un ritual vacío que implica rebajarse ante imágenes religiosas por una aceptación ciega de la costumbre. Más bien, es una forma de mostrar fe, respeto y gratitud hacia aquello que es verdaderamente digno de tal veneración. Además, es un acto de humildad, una cualidad que es a la vez una bendición para los demás y que inclina la propia mente hacia los ideales y aspiraciones espirituales que esos objetos representan. Inclinarse ante la Triple Joya es elevar el propio corazón y la propia mente.
+
+La forma y el método correctos para hacer la postración son los siguientes:
+
+==== La reverencia o postración de los cinco puntos
+El término ‘postración de cinco puntos’ se refiere a los cinco puntos del cuerpo que hacen contacto con el suelo cuando se realiza una postración. Son: la frente, ambos codos y ambas rodillas.
+
+*Postura preparatoria de la Reverencia:*
+- *Hombres*: se arrodillan en cuclillas con las palmas de ambas manos apoyadas en los muslos.
+- *Mujeres*: adoptan la misma postura, pero con el empeine de los pies hacia el suelo.
+
+==== El ‘Añjali’
+Junte las palmas de las manos a la altura del pecho, apuntando hacia arriba en un ángulo de cuarenta y cinco grados con los dedos juntos.
+
+==== El ‘Vandana’
+Lleve el añjali (palmas juntas) hasta la frente de modo que los pulgares se coloquen entre las cejas y las puntas de los dedos índice estén en la línea del cabello.
+- *Hombres*: mantienen la cabeza recta.
+- *Mujeres*: inclinan la cabeza ligeramente hacia adelante.
+
+==== El ‘Abhivada’
+Manteniendo la espalda recta, inclínese llevando la frente al suelo de modo que toque el espacio entre las palmas (aproximadamente a una distancia de un palmo), que ahora estarán boca abajo, planas sobre el suelo.
+- *Hombres*: mantienen los codos y las rodillas alineados y tocándose.
+- *Mujeres*: colocan los codos a cada lado de las rodillas.
+
+=== Postura ‘papiyap’ (พับเพียบ)
+‘พับเพียบ’ (pronunciado ‘papiyap’) es un término tailandés que se refiere a la postura tradicional que se adopta al cantar. Sentarse ‘papiyap’ significa sentarse con las piernas dobladas a un lado. La postura de piernas cruzadas o ‘loto’ se reserva para la práctica formal de meditación. 
+
+Sentarse con las piernas o los pies apuntando hacia una imagen de Buddha o hacia los monásticos se considera irrespetuoso, ya que los pies son la parte más baja del cuerpo. Por lo tanto, ‘papiyap’ es una postura apropiada para asumir mientras se canta. Sin embargo, cuando se cantan los versos de homenaje a la Triple Joya, uno se arrodilla sobre sus talones.
+
+- *Hombres*: se sientan con una pierna doblada a un lado y la otra pierna cruzada frente a ellos, con la planta del pie tocando la rodilla.
+- *Mujeres*: se sientan con una pierna doblada a un lado, pero con la otra pierna doblada debajo de ellas, manteniendo las rodillas juntas.
+
+==== Cambio de postura
+No está mal cambiar de postura cuando el dolor se agudiza, pero debe hacerse de manera educada. La mejor manera de cambiar de postura, ya sea sentado en meditación o mientras se canta, es cambiar la posición de las piernas desde atrás, inclinándose hacia adelante y usando una mano en el suelo para apoyarse.
+
+=== Etiqueta general en el monasterio y la sala de meditación
+El monasterio y, en particular, la sala principal de meditación son un espacio sagrado. La sala de meditación (sala Uposatha) debe proporcionar siempre un entorno adecuado y propicio para la práctica de virtud, meditación y desarrollo de sabiduría.
+
+Al entrar en la sala principal, observe las siguientes prácticas:
+
++ Si es necesario hablar con alguien, es mejor salir a hacerlo. O al menos hágalo lo más silenciosa y brevemente posible.
++ No se permiten sombreros, capuchas, gorros, zapatos, comida ni bebidas en la sala.
++ Se agradecería que los padres con bebés o niños pequeños sacaran a sus hijos de la sala si empiezan a llorar o a comportarse de forma incontrolable.
++ Solo se pueden tomar fotos y vídeos con el permiso directo del monje de mayor antigüedad.
++ El monasterio es un lugar de celibato. Se debe evitar cualquier forma de contacto físico inadecuado con el sexo opuesto en los terrenos del monasterio.
++ Al entrar al monasterio, evite cualquier tipo de ropa que sea reveladora o inmodesta.
++ Por favor, no se siente apuntando con los pies hacia el altar ni hacia los monjes.
++ Por favor, no suba a la plataforma elevada frente al altar principal; es un espacio reservado solo para la Saṅgha monástica.
++ Todos los teléfonos móviles o dispositivos eléctricos que puedan hacer ruido deben dejarse fuera de la sala o apagarse.
++ Estas normas se aplican a cualquier edificio del monasterio donde se celebren discursos de Dhamma o se practique la meditación.
+
+Una actitud básica de moderación y respeto es todo lo que se necesita. Gracias.
 == Glosario de términos en Pāli
-// #gl("Anatta", "Literalmente, ‘no-yo’, …")
+/ Anatta: Literalmente, ‘no-yo’, i.e. impersonal, sin esencia individual; ni persona ni perteneciente a persona. Una de las tres características de todo fenómeno condicionado.
+
+#gl("Anatta", "Literalmente, ‘no-yo’, i.e. impersonal, sin esencia individual; ni persona ni perteneciente a persona. Una de las tres características de todo fenómeno condicionado.")
+#gl("Anicca", "No permanente, inestable, de la naturaleza de aparecer y extinguirse. Una de las tres características de todo fenómeno condicionado.")
+#gl("Arahaṁ/Arahant", "Literalmente, ‘el que se lo merece’ — un término aplicado a todos los seres iluminados.")
+#gl("Ariyapuggalā", "‘Seres Nobles’ o ‘Nobles Discípulos’ — existen ocho tipos: aquellos que trabajan por alcanzar o aquellos que han alcanzado los cuatro diferentes niveles de la iluminación.")
+#gl("Bhagavā", "Epíteto reservado al Señor Buddha.")
+#gl("Bhikkhu", "Un monje budista que vive como monje mendicante, siguiendo 227 preceptos de entrenamiento que definen una vida de renuncia y simplicidad.")
+#gl("Brahmā", "Ser celestial; un dios en uno de los más altos reinos espirituales.")
+#gl("Buddha", "‘El que despierta’, uno que conoce las cosas como son; un potencial que existe en todo ser humano. El último Buddha conocido, Siddhattha Gotama, vivió y enseñó en la India en V a.C.")
+#gl("Deva", "Ser celestial. Menos refinado que brahmā; parecido al concepto de ‘Ángel de la guarda’. ")
+#gl("Dhamma", "(Sánscrito: Dharma) Las enseñanzas de Buddha contenidas en las escrituras, no como dogma de fe, más como una balsa o vehículo que lleva al discípulo hasta la liberación. También, significa la Verdad a la que se refieren las enseñanzas. Cuando se escribe como ‘dhamma’, i.e. con ‘d’ minúscula, se refiere a ‘cosa’ o ‘elemento’.")
+#gl("Dukkha", "Literalmente, ‘difícil de soportar’ — mal-estar, inquietud mental, angustia, insatisfacción, des-contento, estrés, sufrimiento. Una de las tres características de los fenómenos condicionados.")
+#gl("Vida Santa (brahmacariya)", "Literalmente: la conducta de Brahma; usualmente referido a la vida monástica. Usar este término implica voto de celibato.")
+#gl("Jhāna", "Absorción mental. Estado de gran concentración enfocado en una simple sensación o noción mental.")
+#gl("Kamma", "(Sánscrito: karma) Acción intencional; acciones creadas por impulso habitual, con intención.")
+#gl("Khandhā", "Los cinco agregados que componen un ser, tanto fisicos como mentales — estos son: rūpa, vedanā, saññā, saṅkhārā, viññāṇa. Apego a cualquier de estos como ‘Esto es mio’, ‘Yo soy esto’ o ‘Esto es yo’.")
+#gl("Māra", "Personificación de las fuerzas del mal. Durante la lucha de Buddha por la iluminación, Māra se manifestó tratando de desviarle de su meta.")
+#gl("Nibbāna", "(Sánscrito: Nirvāṇa) Literalmente, ‘frescor’ — el estado de liberación de todo sufrimiento e impurezas, la meta del camino budista.")
+#gl("Paccekabuddha", "Buddha solitario — alguien que se ilumina por sus propios medios sin depender de maestro alguno, pero que (a diferencia de Buddha) no posee discípulos.")
+#gl("Paritta", "Versos cantados particularmente para bendiciones y protección.")
+#gl("Parinibbāna", "El perecimiento definitivo de Buddha, i.e. entrada definitiva en Nibbāna.")
+#gl("Puñña", "Mérito, acumulación de buena fortuna, bendiciones o bienestar resultante de la práctica del Dhamma.")
+#gl("Rūpa", "Forma o materia. Los elementos físicos que componen el cuerpo, i.e. tierra, agua, fuego y aire (solidez, cohesión, temperatura y vibración).")
+#gl("Saṅgha", "La comunidad de aquellos que practican el camino de Buddha. Más específicamente, aquellos que se comprometen formalmente al estilo de vida de monásticos mendicantes.")
+#gl("Saṅkhārā", "Formaciones, construcciones, todas las cosas condicionadas, o impulsos voluntarios, es decir, todos los estados mentales con excepción de vedana y sañña, que le dan matiz a los pensamientos volviéndolos en ‘buenos’, ‘malos’ o ‘neutros’.")
+#gl("Saññā", "Percepción, la función mental de reconocer. Impone valores a las cosas dependiendo de experiencias previas.")
+#gl("Sati", "Este término proviene del verbosaratique significa ‘recordar’. ¿Recordar el qué? Recordar el objetivo de la práctica.")
+#gl("Tathāgata", "‘Así ido’ o ‘Así venido’ — dando el sentido de ‘el que viene de vuelta de todo’ uno que ha ido más allá del sufrimiento y la muerte; uno que experimenta las cosas como realmente son, sin ilusión. El epíteto que Buddha se aplicó a sí mismo después de obtener la Iluminación perfecta.")
+#gl("Joya Triple", "Buddha, Dhamma y Saṅgha.")
+#gl("Vedanā", "Sensación — Sensaciones mentales o físicas ya sean agradables, desagradables o neutras.")
+#gl("Viññāṇa", "Conciencia sensorial — proceso por el cual puede existir la visión, el oído, el olfato, el gusto, el tocar y el pensar.")
 
 // ============================================================
 //  LISTA DE PRIMERAS LÍNEAS (autogenerada con #make-index)
