@@ -148,16 +148,20 @@ Los Mahatheras no recibiran la asana de crochet que corresponde al abot.
 
 === Orden de los objetos en la esterilla
 
-El orden de los objetos en la esterilla es el siguiente: escupidera, servilletas y botellin de agua. 
+La disposición de los útiles sobre la esterilla no es un mero acto de organización material, sino una extensión de la disciplina (Vinaya) y un reflejo de la claridad mental del practicante. Cada objeto tiene un lugar preciso, pues el orden externo es el espejo del orden interno; una esterilla caótica es, a menudo, el signo de una mente distraída.
+El orden estrictamente observado es el siguiente: la escupidera, las servilletas y el botellín de agua. Esta secuencia no es arbitraria, sino que responde a la funcionalidad del ritual y la higiene monástica. La escupidera debe situarse de modo que sea accesible sin interrumpir la postura de meditación, evitando movimientos bruscos que rompan el estado de recogimiento.
+*La esterilla quedará alineada en el frente junto con el spitton y las asanas.* 
 
-*La esterilla quedara alineada en el frente junto con el spitton y las asanas.*
+Esta alineación geométrica asegura que el espacio sagrado de la sala mantenga su armonía visual, eliminando cualquier distracción para quienes meditan a su alrededor.
+*Los bowls quedarán colocados junto a la escupidera, de acuerdo con la vieja tradición thailandesa de enjuagar el bol antes de salir a pindapata.*
+ Este acto, aunque sencillo, recuerda al monje la importancia de la pureza y la preparación antes de interactuar con el mundo laico, integrando el aseo físico con la disposición espiritual.
+
 
 #figure(
   image("../images/IMG_20261004_065917_8.jpg", width: 50%),
   caption: [Mats bien alineados en los estantes superiores.],
 ) <alineacion3> // Label attaches perfectly inside the content block
 
-*Los bowls quedaran colocados junto a la escupidera, de acuerdo con la vieja tradicion thailandesa de enjuagar el bol antes de salir pindapat.*
 
 
 #quote(block: true, attribution: [Tahn Ariyacitto])[
@@ -172,6 +176,10 @@ Poner la escupidera en la parte posterior trae consigo diversos e importantes pe
 === Disposicion alternativa de los asientos de los monjes
 
 Como se puede apreciar en @zigzag, los asientos de los monjes deben estar colocados en posiciones alternantes, respetando el orden de los rangos basados en cuantas Vassas tiene cada uno.
+Si bien el orden en zig-zag es la norma preferida por su claridad jerárquica y eficiencia espacial, existen circunstancias excepcionales que requieren una disposición alternativa. Estas variaciones no deben entenderse como una ruptura de la disciplina, sino como una adaptación consciente para preservar la funcionalidad de la sala y el respeto debido a los rangos.
+En casos donde la cantidad de monjes exceda la capacidad de la disposición estándar, o cuando la arquitectura de la sala imponga limitaciones físicas, se podrá optar por una alineación lineal o en bloques compactos. En tales situaciones, el principio rector permanece inalterable: el seniority (Vassa) debe ser el eje ordenador. El monje de mayor antigüedad siempre ocupará la posición de honor, y el resto se desplegará siguiendo el orden decreciente de sus años en la vida monástica.
+Esta flexibilidad en la disposición permite que la comunidad (Sangha) se integre armoniosamente independientemente del número de participantes. Es fundamental que cualquier cambio en la estructura de los asientos sea comunicado y consensuado previamente, evitando así confusiones durante los actos formales o el inicio de la meditación. 
+El objetivo final de cualquier disposición, ya sea la estándar o la alternativa, es eliminar el ruido visual y mental. Cuando cada monje sabe exactamente dónde situarse y reconoce el lugar del otro, el espacio físico se transforma en un soporte para la práctica, donde la estructura externa sostiene y facilita la quietud interna.
 
 #figure(
   image("../images/IMG_20261004_065108_5.jpg", width: 100%),
@@ -179,55 +187,27 @@ Como se puede apreciar en @zigzag, los asientos de los monjes deben estar coloca
 ) <zigzag>
 
 
-analiamos #lorem(444)
+== Durante la comida
 
-#text(16pt, rgb("#C58E00"))[
-  *Marron Forest Sangha*
-]
+Cuando llegamos a la sala despues de recibir la comida, nos vamos colocando en silencio en nuestas asanas. Ajahn Chandapalo esperara a que el ultimo miembro de la Sangha se siente antes de empezar a sonar la campana. 
+Despues de sonar la campana, se empieza a comer en silencio, sin hablar ni mirar a los demas. Por supesto es de malos modales empezar a comer antes de que el Abbot empiece a comer. Tambien es de mala educacion empezar a comer antes que un monje de mayor seniority que uno mismo.
 
-#text(16pt, rgb("#AD7121"))[
-  *Marron Oscuro Forest Sangha*
-]
-
-#text(16pt, rgb("#5A5D5A"))[
-  *Ceniza Forest Sangha*
-]
-
-#text(16pt, rgb("#EFEFEF"))[
-  *Marfil Forest Sangha*
-]
-
-#text(16pt, rgb("#239dad"))[
-  *Typst*
-]
-
+La comida es un acto de comunion y gratitud, y debe ser recibida con respeto y atención plena. Durante la comida, se recomienda mantener una postura erguida y una actitud de silencio absoluto.
 == Despues de la comida
 
-En Vinaya debemos posar el Mop una vez mas
+En Vinaya debemos posar el Mop una vez mas.
+El periodo posterior a la comida es un momento crítico para la transición entre el sustento físico y la reanudación de la práctica meditativa. En el Vinaya, la disciplina no se limita a los actos formales, sino que se extiende a la gestión del espacio compartido. Por ello, es precepto pasar el Mop una vez más, asegurando que la sala recupere su pureza y orden inmediatamente después del uso.
+Este acto de limpieza no debe entenderse como una carga o una tarea doméstica menor, sino como una meditación en movimiento. Al limpiar la sala, el monje practica la atención plena sobre cada movimiento, transformando la acción de barrer en un proceso de purificación tanto del entorno como de la propia mente. Así como se eliminan las partículas de polvo y las impurezas del suelo, la acción consciente busca eliminar las impurezas del corazón, como la pereza (thina-middha) que suele surgir tras la ingesta de alimentos.
+La restauración del orden después de la comida es también un acto de generosidad y respeto hacia la comunidad (Sangha). Al dejar el espacio impecable, se facilita que el siguiente practicante encuentre un ambiente de quietud y armonía, libre de distracciones visuales. El rigor en el aseo post-prandial es, en última instancia, una manifestación de la gratitud hacia el monasterio y un recordatorio de que el camino del despertar requiere una vigilancia constante, incluso en los detalles más sencillos de la vida cotidiana.
 
 
 == Durante la noche
 
 El Buddha recibe iluminacion 24/7.
+La práctica monástica no se detiene con la caída del sol; por el contrario, el silencio de la noche ofrece un terreno fértil para la introspección más profunda. Es fundamental comprender que la naturaleza de la Iluminación no está sujeta a los ciclos astronómicos ni a la alternancia de la luz y la sombra. El Buddha, como símbolo del despertar absoluto, recibe y emana iluminación las veinticuatro horas del día, recordándonos que la luz de la sabiduría (paññā) es una cualidad intrínseca de la mente liberada que brilla con la misma intensidad en la medianoche que al mediodía.
+En este sentido, el mantenimiento de la sala durante la noche no es solo una tarea de orden físico, sino un acto de veneración. El espacio debe permanecer en un estado de pureza y recogimiento, pues la energía de la práctica acumulada durante el día permanece impregnada en el ambiente. La vigilancia del monje durante las horas nocturnas es la extensión de su meditación: un estado de alerta serena donde se observa el surgimiento de los sueños y la quietud del cuerpo.
+La noche es, por tanto, el momento de consolidar lo aprendido en la vigilia. Al mantener la disciplina y el respeto por el espacio sagrado incluso en la oscuridad, el practicante reconoce que el camino hacia el despertar es continuo y sin interrupciones. La iluminación no es un evento puntual, sino un estado de presencia constante que trasciende el tiempo y el espacio.
 
-
-
-#text(fill:rgb("#C58E00"))[#lorem(33)]
-
-#figure(caption: [amigo], image("../images/IMG-20260829-WA0017.jpg",width: 33%))
-
-#figure(caption: [mama y luna], image("../images/IMG-20260830-WA0004.jpg",width: 33%))
-
-#image("../images/IMG-20260830-WA0004.jpg",width: 63%)
-
-
-#columns(2)[
-  = Esto es genial
-  #lorem(300)
-
-  = Esto es genial
-  #lorem(300)
-]
 
 
 
