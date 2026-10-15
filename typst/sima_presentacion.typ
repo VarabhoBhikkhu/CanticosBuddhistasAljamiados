@@ -1,6 +1,7 @@
 #set page(
   paper: "a4",
   margin: (x: 25mm, y: 25mm),
+  numbering: "1",
 )
 
 // Colores Forest Sangha
@@ -18,6 +19,21 @@
 )
 
 #set par(justify: true)
+
+// Cabecera del documento
+#set page(
+  header: context {
+    let pg = counter(page).get().first()
+    if pg == 1 { return [] } // No cabecera en la portada
+    set text(size: 10pt, fill: luma(100), style: "italic")
+    block(width: 100%)[
+      #set align(left)
+      #text(weight: "bold", style: "upright")[The Sīmā Boundary - Presentation by Ajahn Gavesako] #h(1fr) #text(style: "upright")[Pág. #pg]
+      #v(-0.5em)
+      #line(length: 100%, stroke: 0.5pt + luma(200))
+    ]
+  }
+)
 
 // Estilo de los encabezados
 #show heading: it => {
@@ -37,7 +53,7 @@
 )
 
 // PORTADA
-#set page(margin: 0pt)
+#set page(margin: 0pt, header: none)
 #place(center + horizon)[
   #image("../images/Bai_sema_1.jpg", width: 100%, height: 100%, fit: "cover")
 ]
@@ -57,9 +73,45 @@
 #outline(indent: 2em)
 #pagebreak()
 
-= Introduction to the Sīmā
+= Pointing out and binding
 
-A sīmā is a consecrated boundary that defines the territory where the monastic community can perform legal ecclesiastical acts (*saṅghakamma*). It is a closed geometric figure composed of a loose collection of agreed-upon landmarks (*nimitta*). It has to follow the rules of valid polygon construction: each marker must be a genuinely distinct point on the perimeter, and the perimeter must fully enclose the territory without self-intersection.
+Pointing out and binding
+The earliest Vinaya procedure for establishing a sīmā was conceptually simple: monks authorized
+or agreed upon (sammannati) certain natural landmarks – a rock, a tree, a road – as the limits of
+their communal territory. The act was essentially one of collective recognition and consent, pointing
+out (kitteti) features that already existed in the landscape. Linear features such as rivers and roads
+were particularly useful in this early method precisely because they were unambiguous and easily
+recognizable: a river is a boundary in an intuitive, practical sense, and everyone could see it. The
+area of the early sīmās was typically very large, several kilometres across, and monks living there
+would regularly come together for the uposatha ceremony. They did not have access to a geographic
+map of the area on which ideal straight lines can be drawn. Instead, they would recognize the
+important landmarks of the area they lived in. For example, they could define their area by pointing
+out “from that hill over there, along the stream until it meets the road, then along the road until it
+reaches the pond, then up to a big rock on the edge of the forest, and along the forest back to the
+hill.”
+
+#image("/images/sima_p1_i5.jpeg")
+
+What the commentarial tradition did, particularly from the Samantapāsādikā onward, was to
+reframe this act through the metaphor of binding (bandhati). Rather than monks simply agreeing
+that certain landmarks are the boundary, they now conceptually connect those markers to one
+another, as if drawing a line or pulling a rope from point to point in a clockwise circuit until the
+loop closes back on itself. This newer term emphasizes the ritual method of connecting boundary
+markers (nimitta) to delineate the territory. In the early Vinaya, a formally established territory is
+called samāna-saṃvāsa sīmā (territory of shared communion). Following the introduction of the
+root bandh in the commentaries, the term baddha sīmā (tied-off territory) became the standard
+designation
+
+#align(center)[#image("/images/sima_p1_i12.jpeg")]
+
+The territory is now defined by the directional act of tying marker to marker. And this geometric
+logic imposed a new demand on linear features: a winding river or road as a whole could no longer
+serve as a marker, since a rope cannot be easily tied to it. A specific, singular point on that road or
+riverbank now had to be pinpointed, through which the imaginary connecting line would pass. The
+result of this process is a closed geometric figure with legal existence, the baddha sīmā, rather than
+a loose collection of agreed-upon landmarks. It has to follow the rules of valid polygon
+construction: each marker must be a genuinely distinct point on the perimeter, and the perimeter
+must fully enclose the territory without self-intersection.
 
 == The Eight Directions
 In the Vinaya Piṭaka, the eight cardinal and inter-cardinal directions are not mentioned as a requirement for establishing a sīmā boundary. Instead, the original canonical rules regarding boundary markers (*nimitta*) are far simpler, with the specific directional layout being a later commentarial development. The Mahāvagga simply states that these markers must be announced or pointed out (*kitteti*), but it does not describe the method for doing so, nor does it specify their number or placement:
@@ -72,7 +124,9 @@ In the Vinaya Piṭaka, the eight cardinal and inter-cardinal directions are not
 The practice of using eight markers specifically aligned with the eight cardinal and inter-cardinal directions originates in the later commentaries. The *Samantapāsādikā* (by Buddhaghosa, 5th century Sri Lanka) introduced the detailed ritual for “tying off” (*bandhati*) a territory. It describes a process where monks proceed clockwise from one marker to the next, eventually returning to the first marker to close the loop. It mentions the specific questions used to announce the eight directions (e.g., Puratthimāya disāya kiṃ nimittaṃ – “What is the marker in the eastern direction?”). Although it technically allows a sīmā to have anywhere from 3 to 100 markers, the rectangular shape became the standard.
 
 == The Vimativinodanī-ṭīkā
-The Vimativinodanī-ṭīkā originated in South India and was composed at the end of the 12th century. It was written by Coḷiya Kassapa, a South Indian monk. The subcommentary was written from the perspective of the South Indian (Coḷiya) monks during a period of significant interaction between South Indian and Sri Lankan monastic orders. The proximity allowed monks to observe deviating practices and differences in their Vinaya interpretation, which formed the basis for later legal disputes. As the third subcommentary on the Vinaya, it is noted for being highly innovative and more detailed than earlier works. It is the first Pāli text to describe certain new ritual techniques, such as the method for cancelling unknown sīmā territories. This method was unorthodox because older commentaries by Buddhaghosa considered it impossible to remove a sīmā whose exact location had been forgotten. Another innovation which it introduced was the replacement of the real name of upasampadā candidates with “Nāga” and that of the preceptor with “Tissa”. Despite the dispute with the Sri Lankan tradition, the Vimativinodanī became highly influential across the Theravāda world and its new ritual forms are widely accepted as the standard until today.
+The Vimativinodanī-ṭīkā originated in South India and was composed at the end of the 12th century. It was written by Coḷiya Kassapa, a South Indian monk. The subcommentary was written from the perspective of the South Indian (Coḷiya) monks during a period of significant interaction between South Indian and Sri Lankan monastic orders. The proximity allowed monks to observe deviating practices and differences in their Vinaya interpretation, which formed the basis for later legal disputes. As the third subcommentary on the Vinaya, it is noted for being highly innovative and more detailed than earlier works. It is the first Pāli text to describe certain new ritual techniques, such as the method for cancelling unknown sīmā territories. Another innovation which it introduced was the replacement of the real name of upasampadā candidates with “Nāga” and that of the preceptor with “Tissa”. Despite the dispute with the Sri Lankan tradition, the Vimativinodanī became highly influential across the Theravāda world and its new ritual forms are widely accepted as the standard until today.
+
+#image("/images/sima_p1_i17.jpeg")
 
 = Boundary Markers (Nimitta)
 
@@ -89,7 +143,9 @@ The use of these six kinds of nimitta suggests that in those days the areas of s
 A footpath or a cart-track still in use can be used as a nimitta. A path of the length of two or three villages can be used. Paths which split from the main path and which join up again a short distance later and disused paths are prohibited from use.
 
 === Water
-Water means the still water in lagoons, marshes, ponds or wells. In the old commentary called the Andhaka-atthakathā it is prohibited to take the water in a deep well in which a pulley or something similar is used to draw out water as a nimitta. It is explained that in such wells the amount of water is very little and they can go dry. The ācariya who composed the Commentary on the Mahāvagga opposes that explanation as unsuitable, calling it only the author's own opinion. He himself explained still water as even that in a wallow dug by pigs in a children's playground, or even water which is brought by pot and poured into a pit which was dug that moment. If that water can remain until the end of the chanting of the kammavācā, however small an amount remains, this can be used. But in that place, he added, it is proper to construct a pile of rocks or a sand-hill or an earthen-hill, or a fixed rock, or a wooden pole as a marker. I am amazed that the ācariya who composed the Mahāvagga commentary dared to contradict a reasonable view so strongly and shamelessly, while (himself) comparing vinaya-kamma with playthings. He completely misunderstands the flavour (of the passage); it is quite disturbing.
+#align(center)[#image("../images/sima_p1_i1.jpeg", width: 80%)]
+
+Water means the still water in lagoons, marshes, ponds or wells. In the old commentary called the Andhaka-atthakathā it is prohibited to take the water in a deep well in which a pulley or something similar is used to draw out water as a nimitta. It is explained that that in such wells the amount of water is very little and they can go dry. The ācariya who composed the Commentary on the Mahāvagga opposes that explanation as unsuitable, calling it only the author's own opinion. He himself explained still water as even that in a wallow dug by pigs in a children's playground, or even water which is brought by pot and poured into a pit which was dug that moment. If that water can remain until the end of the chanting of the kammavācā, however small an amount remains, this can be used. But in that place, he added, it is proper to construct a pile of rocks or a sand-hill or an earthen-hill, or a fixed rock, or a wooden pole as a marker. I am amazed that the ācariya who composed the Mahāvagga commentary dared to contradict a reasonable view so strongly and shamelessly, while (himself) comparing vinaya-kamma with playthings. He completely misunderstands the flavour (of the passage); it is quite disturbing.
 
 These objects are limited to being nimitta on one side only, and are prohibited from being used on another side. For example, the same path or the same river encircling the sīmā on many sides, if determined as nimitta on one side, is prohibited from being determined again on another side. However, they are used in marking a country's borders: after consideration, I can see no objection – these objects may be used either similarly or differently from the rest.
 
@@ -103,6 +159,8 @@ Here we can see that he questions the commentarial prohibition of using certain 
 = Rituals and Cosmological Symbolism
 
 == Luk Nimit and the Central Stone
+#align(center)[#image("../images/sima_p1_i1.jpeg", width: 80%)]
+
 In the modern Thai tradition, *luk nimit* (round stones) are buried in sets of nine, eight directly under sema and one in the centre of the ubosot. Luk nimit have never been found in association with Dvaravati period sema from the Khorat Plateau. It seems clear therefore, that this tradition came in later, perhaps as early as the Sukhothai period.
 
 The Vinayamukha author writes that the material to be used as nimitta must be prepared before. He prefers stones of larger size, large enough so that they are difficult to move. Round stones placed in pits are reasonable. He mentions that in ancient monasteries in Kamphaeng Phet and Sukhothai, very large sīmā-markers fixed on the ground were used.
@@ -110,6 +168,8 @@ The Vinayamukha author writes that the material to be used as nimitta must be pr
 Following the Thai tradition, on an astrologically auspicious day, these luk nimit stones are lowered into the pits. The central, ninth stone is buried with the highest level of ceremony, often suspended by ropes and dropped into the central pit by cutting a ribbon with a ceremonial knife. This central stone, acting as a symbolic seed, is buried alongside precious woods, coins, jewelry, and written prayers to permanently seal the spiritual center of the temple. In Cambodia, this stone is specifically identified as the indakhīla (Indra’s stake), marking the “navel” of the consecrated area.
 
 == The Cosmic Mandala
+#align(center)[#image("../images/sima_p1_i1.jpeg", width: 80%)]
+
 In Southeast Asian traditions, the commentarial eight-directions model is strictly followed. The central luk nimit stone represents the Buddha. Each direction is then ritually mapped to one of the first-generation disciples of the Buddha:
 - *East*: Ven. Aññā Koṇḍañña
 - *South East*: Ven. Mahā Kassapa
@@ -155,7 +215,7 @@ The history of the *sīmā* shows a tension between long-established traditions 
   gutter: 1em,
   text(weight: "bold")[Término], text(weight: "bold")[Definición],
   [Sīmā], [Límite o frontera consagrada que define el territorio donde se pueden realizar actos formales de la Saṅgha.],
-  [Nimitta], [Marcador o señal física utilizada para delimitar la sīmā (rocas, árboles, ríos, etc.).],
+  [Nimitta], [Marcador o señal la física utilizada para delimitar la sīmā (rocas, árboles, ríos, etc.).],
   [Saṅghakamma], [Actos legales o ceremonias eclesiásticas realizados por la comunidad monástica.],
   [Uposatha], [Sala de ordenación o el día de observancia donde se reúnen los monjes.],
   [Baddha Sīmā], [Límite "atado" o fijado permanentemente mediante un ritual formal.],
@@ -167,7 +227,7 @@ The history of the *sīmā* shows a tension between long-established traditions 
   [Daḷhīkamma], [Ceremonia de "fortalecimiento" para asegurar la validez de una ordenación previa.],
   [Nimitta Mahābaddha-Sīmā], [Grandes marcadores de límites que encierran todo un monasterio.],
   [Vimativinodanī], [Importante subcomentario del Vinaya compuesto en la India del Sur.],
-  [Samantapāsādikā], [El comentario principal del Vinaya escrito por Buddhaghosa.],
+  [Samanatapāsādikā], [El comentario principal del Vinaya escrito por Buddhaghosa.],
 )
 
 #v(2em)
