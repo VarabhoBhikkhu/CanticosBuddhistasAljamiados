@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "traductor-bilingue": {
+      "source": "eferro/skill-factory",
+      "sourceType": "github",
+      "skillPath": "output_skills/tools/traductor-bilingue/SKILL.md",
+      "computedHash": "3f37bd4bd940de920ccd8f8c84145b5eb241d21a00b457bedd3777de3fb70708"
+    },
     "typst-author": {
       "source": "apcamargo/typst-skills",
       "sourceType": "github",

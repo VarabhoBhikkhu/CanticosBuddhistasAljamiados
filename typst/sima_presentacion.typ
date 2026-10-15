@@ -1,6 +1,6 @@
 #set page(
-  paper: "a4",
-  margin: (x: 25mm, y: 25mm),
+  paper: "a5",
+  margin: (x: 11mm, y: 11mm),
   numbering: "1",
 )
 
@@ -30,7 +30,7 @@
       #set align(left)
       #text(weight: "bold", style: "upright")[The Sīmā Boundary - Presentation by Ajahn Gavesako] #h(1fr) #text(style: "upright")[Pág. #pg]
       #v(-0.5em)
-      #line(length: 100%, stroke: 0.5pt + luma(200))
+      #line(length: 100%, stroke: 0.5pt + luma(4.29%))
     ]
   }
 )
@@ -54,15 +54,12 @@
 
 // PORTADA
 #set page(margin: 0pt, header: none)
-#place(center + horizon)[
-  #image("../images/Bai_sema_1.jpg", width: 100%, height: 100%, fit: "cover")
-]
 #place(left + horizon, dx: 30mm)[
-  #text(size: 36pt, weight: "bold", fill: white)[The Sīmā Boundary]
+  #text(size: 36pt, weight: "bold", fill: black)[The Sīmā Boundary]
   #v(0.5em)
-  #text(size: 18pt, fill: white, style: "italic")[A Study on Monastic Territories and Rituals]
+  #text(size: 18pt, fill: black, style: "italic")[A Study on Monastic Territories and Rituals]
   #v(1em)
-  #text(size: 14pt, fill: white)[By Ajahn Gavesako]
+  #text(size: 14pt, fill: black)[By Ajahn Gavesako]
 ]
 #pagebreak()
 
@@ -210,36 +207,32 @@ The history of the *sīmā* shows a tension between long-established traditions 
 
 = Glosario de Términos
 
-#grid(
-  columns: (1fr, 2fr),
-  gutter: 1em,
-  text(weight: "bold")[Término], text(weight: "bold")[Definición],
-  [Sīmā], [Límite o frontera consagrada que define el territorio donde se pueden realizar actos formales de la Saṅgha.],
-  [Nimitta], [Marcador o señal la física utilizada para delimitar la sīmā (rocas, árboles, ríos, etc.).],
-  [Saṅghakamma], [Actos legales o ceremonias eclesiásticas realizados por la comunidad monástica.],
-  [Uposatha], [Sala de ordenación o el día de observancia donde se reúnen los monjes.],
-  [Baddha Sīmā], [Límite "atado" o fijado permanentemente mediante un ritual formal.],
-  [Udakukkhepa Sīmā], [Límite establecido mediante la salpicadura de agua, generalmente en ríos o lagos.],
-  [Visuṅgāma Sīmā], [Territorio separado de los asentamientos civiles.],
-  [Luk Nimit], [Piedras redondas consagradas que sirven como marcadores modernos en Tailandia.],
-  [Kammavācā], [El texto formal o moción recitada durante los actos de la Saṅgha.],
-  [Upasampadā], [El acto de ordenación completa de un monje.],
-  [Daḷhīkamma], [Ceremonia de "fortalecimiento" para asegurar la validez de una ordenación previa.],
-  [Nimitta Mahābaddha-Sīmā], [Grandes marcadores de límites que encierran todo un monasterio.],
-  [Vimativinodanī], [Importante subcomentario del Vinaya compuesto en la India del Sur.],
-  [Samanatapāsādikā], [El comentario principal del Vinaya escrito por Buddhaghosa.],
-)
+/ Sīmā: Límite o frontera consagrada que define el territorio donde se pueden realizar actos formales de la Saṅgha.
+/ Nimitta: Marcador o señal la física utilizada para delimitar la sīmā (rocas, árboles, ríos, etc.).
+/ Saṅghakamma: Actos legales o ceremonias eclesiásticas realizados por la comunidad monástica.
+/ Uposatha: Sala de ordenación o el día de observancia donde se reúnen los monjes.
+/ Baddha Sīmā: Límite "atado" o fijado permanentemente mediante un ritual formal.
+/ Udakukkhepa Sīmā: Límite establecido mediante la salpicadura de agua, generalmente en ríos o lagos.
+/ Visuṅgāma Sīmā: Territorio separado de los asentamientos civiles.
+/ Luk Nimit: Piedras redondas consagradas que sirven como marcadores modernos en Tailandia.
+/ Kammavācā: El texto formal o moción recitada durante los actos de la Saṅgha.
+/ Upasampadā: El acto de ordenación completa de un monje.
+/ Daḷhīkamma: Ceremonia de "fortalecimiento" para asegurar la validez de una ordenación previa.
+/ Nimitta Mahābaddha-Sīmā: Grandes marcadores de límites que encierran todo un monasterio.
+/ Vimativinodanī: Importante subcomentario del Vinaya compuesto en la India del Sur.
+/ Samanatapāsādikā: El comentario principal del Vinaya escrito por Buddhaghosa.
 
 #v(2em)
 
-= Bibliografía
 
-#set text(fill: rgb("#239dad"))
-- *Buddhaghosa*. Samantapāsādikā (Comentario al Vinaya).
-- *Coḷiya Kassapa*. Vimativinodanī-ṭīkā (Subcomentario al Vinaya).
-- *Prince Vajirañāṇavarorasa*. Vinayamukha y Sīmāvicāraṇa.
-- *Mahāvagga*. Vinaya Piṭaka (Canon Pāli).
-- *Rhys Davids*. Correspondencia y publicaciones de la Pali Text Society.
-- *Sīmākathā*. Tratado sobre la demarcación de límites.
-- *Pattaratorn Chirapravati*. "Boundary Markers (Sima) & the New Buddhist Lineage of King Rama IV".
-- *Buddhadāsa Bhikkhu*. Enseñanzas sobre la simplicidad y el Suan Mokkh.
+@ron_ajahn_nodate
+
+@noauthor_bhikkhu_nodate
+
+@opentipitaka_comentario_nodate-4
+
+@opentipitaka_cronicas_nodate
+
+#bibliography("My Library.bib",style: "ieee", title: "Bibliografía")
+
+
