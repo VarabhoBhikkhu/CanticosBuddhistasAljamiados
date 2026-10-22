@@ -40,7 +40,8 @@ Translates technical text between English and Spanish with high fidelity, preser
 
 ## English → Spanish guidelines
 
-- Traduce a español neutro de España, salvo que el usuario pida otro dialecto intentando imitar el castellano antiguo.
+- Traduce a castellano neutro de España, salvo que el usuario pida otro dialecto intentando imitar el castellano antiguo.
+- El estilo a imitar de castellano antiguo esta en el fichero assets/prologo.md
 - **Prioriza la naturalidad y claridad técnica**: Usa términos técnicos en inglés cuando sean más claros o estén ampliamente establecidos en la comunidad de desarrollo hispanohablante.
 - Respeta terminología técnica común en desarrollo de software que se mantiene en inglés:
   - **Términos de control de versiones**: "pull request", "commit", "branch", "merge", "rebase", "cherry-pick", "trunk-based development"
