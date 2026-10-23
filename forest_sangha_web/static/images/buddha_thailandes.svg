@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="100%" height="100%">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C58E00" stop-opacity="0.25"/>
+      <stop offset="50%" stop-color="#AD7121" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#C58E00" stop-opacity="0.08"/>
+    </linearGradient>
+    <radialGradient id="haloGrad" cx="50%" cy="32%" r="35%">
+      <stop offset="0%" stop-color="#C58E00" stop-opacity="0.18"/>
+      <stop offset="60%" stop-color="#C58E00" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#C58E00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Aura / Halo of the Buddha -->
+  <circle cx="400" cy="320" r="230" fill="url(#haloGrad)"/>
+  <circle cx="400" cy="320" r="230" stroke="#C58E00" stroke-width="1.5" stroke-dasharray="4,6" fill="none" opacity="0.3"/>
+  <circle cx="400" cy="320" r="200" stroke="#AD7121" stroke-width="1" fill="none" opacity="0.2"/>
+
+  <g fill="none" stroke="#AD7121" stroke-linecap="round" stroke-linejoin="round" opacity="0.85">
+
+    <!-- Flame Ushnisha (Rasmi - Distinctive Thai Sukhothai Style) -->
+    <path d="M400 130 C405 155, 418 175, 416 195 C414 208, 408 215, 400 225 C392 215, 386 208, 384 195 C382 175, 395 155, 400 130 Z" fill="url(#goldGrad)" stroke="#C58E00" stroke-width="2"/>
+    <path d="M400 130 Q410 160, 400 190" stroke="#C58E00" stroke-width="1.5" opacity="0.6"/>
+    <!-- Flame Tongues -->
+    <path d="M400 165 C412 170, 422 185, 412 205" stroke="#C58E00" stroke-width="1.5"/>
+    <path d="M400 165 C388 170, 378 185, 388 205" stroke="#C58E00" stroke-width="1.5"/>
+    <circle cx="400" cy="125" r="3.5" fill="#C58E00" stroke="#AD7121" stroke-width="1"/>
+
+    <!-- Ketumala / Ushnisha base cone -->
+    <path d="M382 225 C382 220, 418 220, 418 225 L424 242 C424 245, 376 245, 376 242 Z" fill="url(#goldGrad)" stroke="#C58E00" stroke-width="2"/>
+
+    <!-- Head & Hair Curls (Ushnisha) -->
+    <path d="M356 265 C356 230, 444 230, 444 265 C444 275, 440 282, 436 290 C436 290, 420 282, 400 282 C380 282, 364 290, 364 290 C360 282, 356 275, 356 265 Z" fill="url(#goldGrad)" stroke="#C58E00" stroke-width="2"/>
+
+    <!-- Facial Contour (Serene oval Sukhothai form) -->
+    <path d="M364 286 C360 320, 368 360, 400 390 C432 360, 440 320, 436 286" stroke="#C58E00" stroke-width="2.5" fill="none"/>
+
+    <!-- Thai Style Elongated Ears (Pabbaja earlobes) -->
+    <path d="M360 285 C350 295, 348 335, 354 365 C356 372, 362 372, 363 365 C364 345, 364 305, 365 292" stroke="#AD7121" stroke-width="2"/>
+    <path d="M440 285 C450 295, 452 335, 446 365 C444 372, 438 372, 437 365 C436 345, 436 305, 435 292" stroke="#AD7121" stroke-width="2"/>
+
+    <!-- Eyebrows (Arched like the crescent moon) -->
+    <path d="M372 315 Q385 306, 395 318" stroke="#AD7121" stroke-width="2"/>
+    <path d="M428 315 Q415 306, 405 318" stroke="#AD7121" stroke-width="2"/>
+
+    <!-- Half-closed Meditative Eyes -->
+    <path d="M374 326 Q385 334, 395 326" stroke="#C58E00" stroke-width="2"/>
+    <path d="M376 326 Q385 330, 393 326" stroke="#AD7121" stroke-width="1.5"/>
+    <path d="M426 326 Q415 334, 405 326" stroke="#C58E00" stroke-width="2"/>
+    <path d="M424 326 Q415 330, 407 326" stroke="#AD7121" stroke-width="1.5"/>
+
+    <!-- Elegant Nose (Aquiline Sukhothai) -->
+    <path d="M400 316 L397 348 Q400 353, 404 349" stroke="#AD7121" stroke-width="1.8"/>
+
+    <!-- Compassionate Smile (Subtle gentle lips) -->
+    <path d="M388 365 Q400 373, 412 365" stroke="#C58E00" stroke-width="2"/>
+    <path d="M392 366 Q400 361, 408 366" stroke="#AD7121" stroke-width="1.5"/>
+    <path d="M394 375 Q400 378, 406 375" stroke="#AD7121" stroke-width="1.2"/>
+
+    <!-- Neck with the three auspicious folds (Kambugrīvā) -->
+    <path d="M386 393 Q400 398, 414 393" stroke="#AD7121" stroke-width="1.5"/>
+    <path d="M382 403 Q400 409, 418 403" stroke="#AD7121" stroke-width="1.8"/>
+    <path d="M380 414 Q400 421, 420 414" stroke="#AD7121" stroke-width="2"/>
+
+    <!-- Torso and Shoulders (Lion-like broad shoulders - Simhapura) -->
+    <path d="M378 414 C335 435, 275 470, 260 540 C250 590, 260 670, 270 710" stroke="#C58E00" stroke-width="2.5"/>
+    <path d="M422 414 C465 435, 525 470, 540 540 C550 590, 540 670, 530 710" stroke="#C58E00" stroke-width="2.5"/>
+
+    <!-- Monastic Robe (Civara draped in open-shoulder Theravada Thai style) -->
+    <!-- Sanghati sash hanging down left chest to waist -->
+    <path d="M386 405 L375 580 L400 585 L406 415" fill="url(#goldGrad)" stroke="#AD7121" stroke-width="2"/>
+    <path d="M375 580 Q388 595, 400 585" stroke="#C58E00" stroke-width="1.8"/>
+    <!-- Fold lines in the sanghati -->
+    <line x1="382" y1="425" x2="382" y2="575" stroke="#C58E00" stroke-width="1" opacity="0.6"/>
+    <line x1="392" y1="420" x2="393" y2="580" stroke="#C58E00" stroke-width="1" opacity="0.6"/>
+
+    <!-- Robe outline curving over left shoulder down to arms -->
+    <path d="M380 414 C360 450, 340 500, 335 570" stroke="#AD7121" stroke-width="1.8"/>
+    <!-- Bare right chest and shoulder contour -->
+    <path d="M420 414 C435 445, 450 495, 450 540" stroke="#C58E00" stroke-width="1.5" stroke-dasharray="6,4"/>
+
+    <!-- Arms and Hands in Meditative Equanimity (Dhyana Mudra / Samadhi) -->
+    <!-- Left arm -->
+    <path d="M260 540 C250 630, 270 690, 340 710 L460 710" stroke="#C58E00" stroke-width="2.5"/>
+    <!-- Right arm -->
+    <path d="M540 540 C550 630, 530 690, 460 710" stroke="#C58E00" stroke-width="2.5"/>
+
+    <!-- Hands overlapping in lap (Right over Left, thumbs touching) -->
+    <path d="M360 705 Q400 695, 440 705 Q445 715, 435 720 Q400 725, 365 720 Z" fill="url(#goldGrad)" stroke="#AD7121" stroke-width="2"/>
+    <path d="M375 700 Q400 692, 425 700" stroke="#C58E00" stroke-width="1.5"/>
+
+    <!-- Folded Legs (Virasana / Padmasana Cross-legged posture) -->
+    <path d="M190 760 C230 730, 290 710, 360 715" stroke="#C58E00" stroke-width="2.5"/>
+    <path d="M610 760 C570 730, 510 710, 440 715" stroke="#C58E00" stroke-width="2.5"/>
+    <path d="M190 760 C180 800, 230 820, 400 820 C570 820, 620 800, 610 760" stroke="#C58E00" stroke-width="2.5" fill="url(#goldGrad)"/>
+
+    <!-- Under-robe folds (Antaravasaka) -->
+    <path d="M230 780 Q400 810, 570 780" stroke="#AD7121" stroke-width="1.5"/>
+    <path d="M270 795 Q400 818, 530 795" stroke="#AD7121" stroke-width="1.5"/>
+
+    <!-- Sole of upward turned foot / lotus position -->
+    <ellipse cx="400" cy="740" rx="35" ry="12" stroke="#AD7121" stroke-width="1.5" fill="none"/>
+
+    <!-- Double Lotus Pedestal (Kamalasana / Lotus Throne) -->
+    <!-- Upper Petals -->
+    <g stroke="#C58E00" stroke-width="2" fill="url(#goldGrad)">
+      <path d="M180 830 Q200 810, 220 830 Q200 840, 180 830 Z"/>
+      <path d="M220 830 Q245 805, 270 830 Q245 842, 220 830 Z"/>
+      <path d="M270 830 Q300 800, 330 830 Q300 845, 270 830 Z"/>
+      <path d="M330 830 Q365 795, 400 830 Q365 845, 330 830 Z"/>
+      <path d="M400 830 Q435 795, 470 830 Q435 845, 400 830 Z"/>
+      <path d="M470 830 Q500 800, 530 830 Q500 845, 470 830 Z"/>
+      <path d="M530 830 Q555 805, 580 830 Q555 842, 530 830 Z"/>
+      <path d="M580 830 Q600 810, 620 830 Q600 840, 580 830 Z"/>
+    </g>
+
+    <!-- Lower Petals Base -->
+    <g stroke="#AD7121" stroke-width="2" fill="url(#goldGrad)">
+      <path d="M200 842 Q230 870, 260 842 Q230 848, 200 842 Z"/>
+      <path d="M260 842 Q295 875, 330 842 Q295 848, 260 842 Z"/>
+      <path d="M330 842 Q365 880, 400 842 Q365 848, 330 842 Z"/>
+      <path d="M400 842 Q435 880, 470 842 Q435 848, 400 842 Z"/>
+      <path d="M470 842 Q505 875, 540 842 Q505 848, 470 842 Z"/>
+      <path d="M540 842 Q570 870, 600 842 Q570 848, 540 842 Z"/>
+    </g>
+
+    <!-- Pedestal Base Platform -->
+    <path d="M160 860 L640 860 L620 885 L180 885 Z" fill="url(#goldGrad)" stroke="#C58E00" stroke-width="2"/>
+    <path d="M140 885 L660 885 L640 910 L160 910 Z" fill="url(#goldGrad)" stroke="#AD7121" stroke-width="2.5"/>
+
+    <!-- Decorative Traditional Thai Kanok Swirls on Base -->
+    <path d="M220 897 Q250 890, 270 902 Q285 890, 310 897" stroke="#C58E00" stroke-width="1.5"/>
+    <path d="M490 897 Q515 890, 530 902 Q550 890, 580 897" stroke="#C58E00" stroke-width="1.5"/>
+    <circle cx="400" cy="898" r="5" fill="#C58E00" stroke="#AD7121" stroke-width="1.5"/>
+  </g>
+</svg>
