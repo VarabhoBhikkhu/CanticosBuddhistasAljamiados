@@ -25,6 +25,6 @@ allowed-tools:
 - Crear siempre una referencia a los monasterios hermanos de la Sangha Forestal en assets/monasterios.md
 
 # Cabecera
-- Incluir siempre en la cabecera de Forest Sangha el icono assets/Logo-20200129C.png y el texto "Forest Sangha" en color rgb("#C58E00")  Marron Claro para titulos y encabezados
+- Incluir siempre en la cabecera de Forest Sangha incluye el texto "Forest Sangha" en color rgb("#C58E00")  Marron Claro para titulos y encabezados
 
-- Incluye imagenes de Buddha de Tipo Thailandes como fondo
+- Incluye imagenes de Buddha de Tipo Thailandes como fondo y toda la decoracion de la pagina con motivos sukhothai naga patrones de architecura
